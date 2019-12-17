@@ -1,0 +1,31 @@
+input#toggle_addtorrent:checked + label + hr + table,
+input#toggle_addtorrent:not(checked) + label + hr + table,
+input#toggle_createtorrent:checked + label + hr + table,
+input#toggle_createtorrent:not(checked) + label + hr + table {
+  display: table!important
+}
+.toggle_input:focus + label.toggleview,
+label.toggleview,
+label.toggleview:active,
+label.toggleview:hover {
+  background: url(/themes/console/dark/images/header.png) center center repeat-x #000!important;
+  background: linear-gradient(to bottom, #1a261a, #000 75%)!important;
+  box-shadow: inset 0 0 0 1px #000,0 1px 1px #000!important;
+  mix-blend-mode: normal!important;
+  cursor: default!important
+}
+.toggle_input:focus + label > img,
+.toggleview img,
+.toggleview img:active,
+.toggleview img:focus,
+.toggleview img:hover,
+.toggleview:active img,
+.toggleview:focus img,
+.toggleview:hover img {
+  border: 2px solid #000!important;
+  box-shadow: none!important;
+  background: #000;
+  background: linear-gradient(to bottom, #000 50%, #040 50%)!important;
+  transform: none!important;
+  filter: drop-shadow(0 0 1px #000)!important
+}

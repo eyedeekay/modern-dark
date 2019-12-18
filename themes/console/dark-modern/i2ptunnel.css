@@ -175,8 +175,7 @@ h3 {
   background-blend-mode: normal,normal,normal,exclusion,normal,normal
 }
 #wizardPanel h2 {
-  background: url(/themes/console/images/info/wizard.png) left 8px center no-repeat,linear-gradient(to bottom, #1a261a 50%, #000 50%)!important;
-  background: url(/themes/console/images/info/wizard.png) left 8px center no-repeat,linear-gradient(to right, #000, rgba(0,0,0,0) 30%),linear-gradient(to bottom, rgba(0,0,0,0) 50%, rgba(0,16,0,0.2) 50%, rgba(0,0,0,0.6)),url(/themes/console/dark/images/camotile2.png) top left,linear-gradient(to bottom, rgba(0,0,0,0) 50%, #000 50%),repeating-linear-gradient(to right, rgba(0,0,0,0.5) 1px, rgba(0,0,0,0.5) 2px, rgba(0,32,0,0.8) 2px, rgba(0,32,0,0.8) 4px)!important;
+  background: url(/themes/console/images/info/wizard.png) left 8px center no-repeat,#1f1a24!important;
   background-size: 20px auto,100% 100%,100% 100%,175px 175px,100% 100%,100% 100%!important;
   background-blend-mode: normal,normal,normal,exclusion,normal,normal
 }
@@ -858,14 +857,14 @@ input.tunnelName {
 }
 #wizardSummary tr:nth-child(even),
 #wizardTunnelTypes tr:nth-child(even) {
-  background: #010
+  background: #332940
 }
 #wizardSummary tr:nth-child(odd),
 #wizardTunnelTypes tr:nth-child(odd) {
-  background: #000800
+  background: #1f1a24
 }
 #wizardTunnelTypes tr:last-child {
-  background: #000
+  background: #1f1a24
 }
 #wizardPanel #description,
 #wizardPanel #name {

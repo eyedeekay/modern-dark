@@ -204,7 +204,6 @@ _:-ms-lang(x),
   box-shadow: inset 0 0 0 1px #000;
   border-bottom: 1px solid #433e47;
   background: #000;
-  background: linear-gradient(to bottom, #010, #000);
   border: 1px groove #524b5e;
   background-size: auto 95%,100% 100%;
   background-blend-mode: screen

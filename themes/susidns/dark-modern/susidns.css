@@ -1,16 +1,14 @@
 body {
   font-family: "Droid Sans","Noto Sans",Ubuntu,"Bitstream Vera Sans","Lucida Grande","DejaVu Sans","Segoe UI",Verdana,Helvetica,sans-serif;
   line-height: 120%;
-  background: #000;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.45)),url(/themes/console/dark/images/camotile2.png) top left fixed;
-  color: #ee9;
+  background: #1f1a24;
+  color: #e6e6e7;
   padding-top: 5px;
   margin: 0 10px;
   min-width: 650px
 }
 body.iframed {
-  margin: 0;
-  background: 0 0!important
+  margin: 0
 }
 ::selection {
   background: rgba(0,187,0,0.99)!important;
@@ -34,7 +32,7 @@ body.iframed {
   user-select: none
 }
 .page {
-  color: #ee9;
+  color: #e6e6e7;
   margin: 10px 0;
   padding: 0 5px;
   font-size: 9pt!important
@@ -57,11 +55,10 @@ body.iframed {
   top: -1px;
   z-index: 999;
   text-align: center;
-  border: 1px solid #2a5f29;
+  border: 1px solid #292929;
   border-radius: 0 1px 2px 2px;
   box-shadow: inset 0 0 0 1px #000,0 2px 2px 2px rgba(0,0,0,0.7);
-  background: url(/themes/console/dark/images/header.png) center center repeat-x #000!important;
-  background: repeating-linear-gradient(135deg, #000 1px, #000 2px, #010 2px, #010 4px),repeating-linear-gradient(45deg, #000 1px, #000 2px, #010 2px, #010 4px),linear-gradient(to bottom, #1a261a 0, #223022 7%, #212f21 9%, #172317 21%, #091109 49%, #050d05 50%, #020602 51%, #010301 53%, #000 56%, #000 100%),url(/themes/console/dark/images/camotile2.png) top left!important;
+  background: #1f1a24!important;
   background-blend-mode: exclusion,exclusion,normal,normal
 }
 .iframed #navi {
@@ -73,87 +70,82 @@ body.iframed {
   border-left: none;
   border-radius: 0;
   box-shadow: inset 0 0 0 1px #000;
-  background: linear-gradient(to bottom, #1a261a 0, #223022 7%, #212f21 9%, #172317 21%, #091109 49%, #050d05 50%, #020602 51%, #010301 53%, #000 56%, #000 100%),url(/themes/console/dark/images/camotile2.png) top left!important;
+  background: #1f1a24;
   background-blend-mode: exclusion,normal
 }
 #navi a:link {
   text-transform: capitalize
 }
-#navi a:first-child {
-  border-radius: 4px 0 0 4px
-}
-#navi a:last-child {
-  border-radius: 0 4px 4px 0
-}
 #navi a,
 #navi a:visited {
   color: #494!important;
-  border: 1px solid #2a5f29;
+  border: 1px solid #292929;
   display: inline-block;
   margin: 1px -2px;
   box-shadow: inset 0 0 0 1px #000,0 0 0 1px #000;
   box-shadow: inset 0 0 0 1px #000,0 0 0 1px rgba(0,8,0,0.5);
   padding: 2px 6px 3px 24px;
   position: relative;
-  text-shadow: 0 1px 1px #000
+  text-shadow: 0 1px 1px #000;
+  border-radius: 12px
 }
 #navi a:focus,
 #navi a:hover {
-  border: 1px solid #f60;
-  color: #f60!important;
+  border: 1px solid #da736b;
+  color: #da736b!important;
   background: #000;
   z-index: 10
 }
 #navi a:active {
-  border: 1px solid #f60;
+  border: 1px solid #da736b;
   box-shadow: inset 3px 3px 3px #000;
   box-shadow: inset 0 0 0 1px #000,inset 3px 3px 3px #000;
-  color: #ee9!important;
+  color: #e6e6e7!important;
   background-blend-mode: luminosity
 }
 #navi a.abook {
-  background: url(/themes/susidns/images/abook.png) 5px center no-repeat #000;
-  background: url(/themes/susidns/images/abook.png) 5px center no-repeat,linear-gradient(to bottom, #020 0, #020 50%, #000 50%, #000 100%)
+  background: url(/themes/susidns/images/abook.png) 5px center no-repeat #332940;
+  background: url(/themes/susidns/images/abook.png) 5px center no-repeat,#332940
 }
 #navi a.abook:focus,
 #navi a.abook:hover {
-  background: url(/themes/susidns/images/abook.png) 5px center no-repeat #000!important
+  background: url(/themes/susidns/images/abook.png) 5px center no-repeat #332940!important
 }
 #navi a.abook:active {
-  background: url(/themes/susidns/images/abook.png) 5px center no-repeat #f60!important
+  background: url(/themes/susidns/images/abook.png) 5px center no-repeat #da736b!important
 }
 #navi a#subs {
-  background: url(/themes/susidns/images/subs.png) 5px center no-repeat #000;
-  background: url(/themes/susidns/images/subs.png) 5px center no-repeat,linear-gradient(to bottom, #020 0, #020 50%, #000 50%, #000 100%)
+  background: url(/themes/susidns/images/subs.png) 5px center no-repeat #332940;
+  background: url(/themes/susidns/images/subs.png) 5px center no-repeat,#1f1a24
 }
 #navi a#subs:focus,
 #navi a#subs:hover {
-  background: url(/themes/susidns/images/subs.png) 5px center no-repeat #000!important
+  background: url(/themes/susidns/images/subs.png) 5px center no-repeat #332940!important
 }
 #navi a#subs:active {
-  background: url(/themes/susidns/images/subs.png) 5px center no-repeat #f60!important
+  background: url(/themes/susidns/images/subs.png) 5px center no-repeat #da736b!important
 }
 #navi a#config {
   background: url(/themes/console/images/buttons/configure.png) 5px center no-repeat #000;
-  background: url(/themes/console/images/buttons/configure.png) 5px center no-repeat,linear-gradient(to bottom, #020 0, #020 50%, #000 50%, #000 100%)
+  background: url(/themes/console/images/buttons/configure.png) 5px center no-repeat,#1f1a24
 }
 #navi a#config:focus,
 #navi a#config:hover {
   background: url(/themes/console/images/buttons/configure.png) 5px center no-repeat #000!important
 }
 #navi a#config:active {
-  background: url(/themes/console/images/buttons/configure.png) 5px center no-repeat #f60!important
+  background: url(/themes/console/images/buttons/configure.png) 5px center no-repeat #da736b!important
 }
 #navi a#overview {
-  background: url(/themes/susidns/images/overview.png) 5px center no-repeat #000;
-  background: url(/themes/susidns/images/overview.png) 5px center no-repeat,linear-gradient(to bottom, #020 0, #020 50%, #000 50%, #000 100%)
+  background: url(/themes/susidns/images/overview.png) 5px center no-repeat #1f1a24;
+  background: url(/themes/susidns/images/overview.png) 5px center no-repeat,#1f1a24
 }
 #navi a#overview:focus,
 #navi a#overview:hover {
-  background: url(/themes/susidns/images/overview.png) 5px center no-repeat #000!important
+  background: url(/themes/susidns/images/overview.png) 5px center no-repeat #1f1a24!important
 }
 #navi a#overview:active {
-  background: url(/themes/susidns/images/overview.png) 5px center no-repeat #f60!important
+  background: url(/themes/susidns/images/overview.png) 5px center no-repeat #1f1a24!important
 }
 hr {
   color: #494;
@@ -166,13 +158,13 @@ hr {
   display: none
 }
 div#filter {
-  border: 1px solid #2a5f29;
+  border: 1px solid #292929;
   padding: 0 5px 15px;
   text-align: center;
-  background: #001000
+  background: #332940
 }
 div#filter + div#search {
-  border: 1px solid #2a5f29;
+  border: 1px solid #292929;
   margin: -1px 0 14px!important
 }
 div#filter + div#search > form {
@@ -207,13 +199,12 @@ div#filter + div#search > form {
   padding: 0
 }
 #filter a {
-  border: 1px solid #2a5f29;
+  border: 1px solid #292929;
   margin: 1px 0 3px;
   padding: 1px 8px;
   min-width: 12px;
   border-radius: 2px;
-  background: #000;
-  background: linear-gradient(to bottom, #010 0, #000 100%);
+  background: #1f1a24;
   font-size: 10pt;
   text-transform: uppercase;
   white-space: nowrap;
@@ -222,8 +213,8 @@ div#filter + div#search > form {
 }
 #filter a:hover {
   text-decoration: none;
-  color: #f60;
-  border: 1px solid #f60;
+  color: #da736b;
+  border: 1px solid #da736b;
   border-radius: 2px;
   background: #020
 }
@@ -232,7 +223,7 @@ div#filter + div#search > form {
 }
 #filter span {
   display: inline-block;
-  border: 1px solid #2a5f29;
+  border: 1px solid #292929;
   min-width: 300px;
   white-space: nowrap;
   margin-top: -1px;
@@ -240,7 +231,7 @@ div#filter + div#search > form {
   font-size: 10pt;
   font-weight: bold;
   text-transform: capitalize;
-  background-image: linear-gradient(to bottom, #001000 0, #001900 50%, #000 51%, #000 100%)!important
+  background-image: linear-gradient(to bottom, #1f1a24 0, #332940 50%, #332940 51%, #332940 100%)!important
 }
 #filter span a,
 #filter span a:hover {
@@ -258,7 +249,7 @@ div#filter + div#search > form {
   margin: 0 0 0 5px
 }
 p {
-  color: #ee9;
+  color: #e6e6e7;
   margin: 0 0 4px;
   font-size: 9pt;
   text-align: justify
@@ -267,14 +258,12 @@ span.addrhlpr {
   font-size: 9pt
 }
 h3 {
-  color: #ee9;
+  color: #e6e6e7;
   font-size: 10pt;
   font-weight: bold;
-  border: 1px solid #2a5f29;
+  border: 1px solid #292929;
   padding: 7px 10px;
-  background: url(/themes/console/dark/images/header.png) center center repeat-x #000;
-  background: linear-gradient(to bottom, #1a261a 0, #223022 7%, #212f21 9%, #172317 21%, #091109 49%, #050d05 50%, #020602 51%, #010301 53%, #000 56%, #000 100%);
-  background: linear-gradient(to bottom, rgba(0,0,0,0) 50%, #000 50%),repeating-linear-gradient(to right, rgba(0,0,0,0.5) 1px, rgba(0,0,0,0.5) 2px, rgba(0,16,0,0.5) 2px, rgba(0,16,0,0.5) 4px),linear-gradient(to bottom, #004000, #000 75%);
+  background: #1f1a24;
   letter-spacing: 0.08em;
   word-spacing: 0.1em;
   text-shadow: 0 0 2px #010;
@@ -316,21 +305,21 @@ div#messages {
   margin: -16px 0 25px!important;
   background: #020;
   z-index: 999;
-  border: 1px solid #2a5f29;
+  border: 1px solid #292929;
   box-shadow: inset 0 0 0 1px #000;
   line-height: 120%
 }
 #messages p {
   padding: 15px 15px 15px 40px!important;
   background: url(/themes/console/dark/images/infohelp.png) 6px center no-repeat;
-  color: #ee9;
+  color: #e6e6e7;
   padding: 5px 5px 10px;
   margin: 0;
   border-radius: 0
 }
 #messages + p,
 p.book {
-  border: 1px solid #2a5f29;
+  border: 1px solid #292929;
   background: url(/themes/susidns/images/addressbook.png) 10px center no-repeat #000;
   padding: 20px 20px 20px 50px!important
 }
@@ -366,14 +355,17 @@ h4 {
   font-size: 9pt;
   margin-top: -15px;
   word-spacing: 0.1em;
-  border: 1px solid #2a5f29;
+  border: 1px solid #292929;
   padding: 8px 10px 8px 35px;
   margin-bottom: 30px!important;
-  background: url(/themes/susidns/images/drive.png) 9px center no-repeat #000!important
+  background: url(/themes/susidns/images/drive.png) 9px center no-repeat #332940!important
+}
+a {
+  color: e6e6e7
 }
 #filter a:visited,
 a:link {
-  color: #494;
+  color: #e6e6e7;
   text-decoration: none;
   font-weight: bold;
   outline: 0
@@ -381,23 +373,23 @@ a:link {
 a:focus,
 a:hover {
   text-decoration: none;
-  color: #f60!important
+  color: #da736b!important
 }
 a:visited {
   color: #7b7;
   text-decoration: none
 }
 a:active {
-  color: #f90!important
+  color: #da736b!important
 }
 th {
-  color: #ee9;
+  color: #e6e6e7;
   font-size: 9pt;
   padding: 5px 10px;
   text-align: left
 }
 td {
-  color: #ee9;
+  color: #e6e6e7;
   padding: 5px;
   font-size: 9pt;
   vertical-align: middle
@@ -417,7 +409,7 @@ input[type="checkbox"]:focus,
 input[type="checkbox"]:hover,
 input[type="radio"]:focus,
 input[type="radio"]:hover {
-  filter: invert(100%) sepia(100%) hue-rotate(70deg) saturate(200%) drop-shadow(0 0 3px #f60)
+  filter: invert(100%) sepia(100%) hue-rotate(70deg) saturate(200%) drop-shadow(0 0 3px #da736b)
 }
 .iframed #visualid {
   margin-top: 16px
@@ -430,7 +422,7 @@ input[type="radio"]:hover {
 }
 #visualid table {
   width: 100%;
-  border: 1px solid #2a5f29;
+  border: 1px solid #292929;
   border-collapse: collapse;
   background: #000900
 }
@@ -445,7 +437,7 @@ input[type="radio"]:hover {
 }
 #visualid td[colspan="2"] {
   padding: 15px 3px;
-  border-top: 1px solid #2a5f29
+  border-top: 1px solid #292929
 }
 #visualid tr:last-child {
   background: #000
@@ -458,7 +450,7 @@ td > img[width="320"] {
   border-radius: 4px;
   width: 240px;
   height: 240px;
-  border: 1px solid #2a5f29;
+  border: 1px solid #292929;
   padding: 5px;
   margin: 10px 3px;
   background: #000
@@ -473,20 +465,20 @@ ul {
   display: table-row
 }
 li {
-  color: #ee9;
+  color: #e6e6e7;
   margin: 0;
   font-size: 9pt;
   list-style: square;
   line-height: 150%
 }
 tr.list1 {
-  background-color: #000900
+  background-color: #332940
 }
 tr.list0 {
-  background-color: #001000
+  background-color: #1f1a24
 }
 .help {
-  border: 1px solid #2a5f29;
+  border: 1px solid #292929;
   padding: 20px 30px
 }
 .help h3 {
@@ -500,7 +492,7 @@ tr.list0 {
 }
 #helpsubs {
   padding: 0 0 0 40px;
-  background: url(/themes/console/dark/images/infohelp.png) 15px center no-repeat #000!important
+  background: url(/themes/console/dark/images/infohelp.png) 15px center no-repeat #332940!important
 }
 #helpsubs p {
   border: none;
@@ -508,7 +500,7 @@ tr.list0 {
   padding: 15px
 }
 #helpconfig {
-  background: #000
+  background: #332940
 }
 #helpconfig ul {
   display: block;
@@ -545,13 +537,13 @@ p.buttons {
   padding: 0 3px
 }
 div#book + div#buttons {
-  border: 1px solid #2a5f29;
+  border: 1px solid #292929;
   padding: 0 0 10px;
   margin-top: 3px;
-  background: #000
+  background: #1f1a24
 }
 form[action="export"] > div#buttons {
-  border: 1px solid #2a5f29;
+  border: 1px solid #292929;
   padding: 0 0 10px;
   margin-top: 15px;
   background: #000
@@ -568,11 +560,11 @@ textarea[name="config"] {
 }
 div#config + div#buttons,
 div#content + div#buttons {
-  border: 1px solid #2a5f29;
+  border: 1px solid #292929;
   margin-top: -3px;
   padding: 5px;
   margin-bottom: 15px;
-  background: #000
+  background: #1f1a24
 }
 div#content + div#buttons {
   margin-top: -13px
@@ -586,8 +578,6 @@ div#content + div#buttons {
   border: 1px solid #fff;
   font-size: 10pt;
   box-shadow: inset 0 0 1px 0 #020;
-  background: #fff;
-  background: rgba(255,255,255,0.3);
   opacity: 0.8;
   filter: invert(1) sepia(100%) hue-rotate(30deg)
 }
@@ -611,45 +601,45 @@ div#book {
 }
 #book table {
   width: 100%;
-  border: 1px solid #2a5f29;
+  border: 1px solid #292929;
   border-collapse: separate
 }
 #book tr.head {
-  background: url(/themes/console/dark/images/header.png) center center repeat-x #000;
-  background: linear-gradient(to bottom, rgba(0,0,0,0) 50%, #000 50%),repeating-linear-gradient(to right, rgba(0,0,0,0.5) 1px, rgba(0,0,0,0.5) 2px, rgba(0,16,0,0.5) 2px, rgba(0,16,0,0.5) 4px),linear-gradient(to bottom, #002000, #000 75%)!important
+  background: #1f1a24
 }
 #book table th {
   padding: 10px 0;
-  border-bottom: 1px solid #2a5f29
+  border-bottom: 1px solid #292929
 }
 #book th:last-child {
-  background: url(/themes/console/dark/images/header.png) center center repeat-x #000;
-  background: url(../../../../..themes/susidns/dark/images/bin.png) center center no-repeat!important
+  background: #1f1a24;
+  background: url(../../../../..themes/susidns/dark/images/bin.png) center center no-repeat #1f1a24!important
 }
 #book table td {
   border-bottom: 1px solid #121;
   border-top: 1px solid #000
 }
 #book table tr:hover td {
-  background: #001a00;
-  border-bottom: 1px solid #2a5f29;
-  border-top: 1px solid #2a5f29
+  background: #7778bf;
+  border-bottom: 1px solid #292929;
+  border-top: 1px solid #292929
 }
 #book table tr:nth-child(2):hover td {
-  border-top: 1px solid transparent
+  border-top: 1px solid transparent;
+  background: #7778bf
 }
 #book table tr:hover td textarea {
-  color: #ee9
+  color: #e6e6e7
 }
 #book input[type="checkbox"] {
   margin: 0
 }
 div#add,
 div#import {
-  border: 1px solid #2a5f29;
+  border: 1px solid #292929;
   padding: 0 0 10px;
   margin-top: 23px;
-  background: #000
+  background: #332940
 }
 #add h3,
 #import h3 {
@@ -676,8 +666,9 @@ div#import {
 #add p.buttons,
 #import p.buttons {
   margin-top: 5px;
-  border-top: 1px solid #2a5f29;
-  padding-top: 5px
+  border-top: 1px solid #292929;
+  padding-top: 5px;
+  background: #1f1a24
 }
 #fakebutton:focus,
 .fakebutton:hover,
@@ -686,9 +677,9 @@ input[type="reset"]:hover,
 input[type="submit"]:focus,
 input[type="submit"]:hover {
   background: #000;
-  color: #f60;
-  border: 1px solid #f60;
-  box-shadow: inset 0 1px 1px 0 #ee9
+  color: #da736b;
+  border: 1px solid #da736b;
+  box-shadow: inset 0 1px 1px 0 #e6e6e7
 }
 .fakebutton,
 .fakebutton:visited {
@@ -696,7 +687,7 @@ input[type="submit"]:hover {
 }
 .fakebutton:focus,
 .fakebutton:hover {
-  color: #f60
+  color: #da736b
 }
 input[type="reset"]::-moz-focus-inner,
 input[type="submit"]::-moz-focus-inner {
@@ -709,17 +700,18 @@ input {
   text-align: left;
   padding: 5px!important;
   border-radius: 2px;
-  border: 1px solid #2a5f29;
+  border: 1px solid #292929;
   background: #000!important;
   color: #494;
   margin: 2px 4px 2px 0;
   font: bold 8pt "Droid Sans","Noto Sans",Ubuntu,"Bitstream Vera Sans","Lucida Grande","DejaVu Sans","Segoe UI",Verdana,Helvetica,sans-serif;
-  min-width: 64px!important
+  min-width: 64px!important;
+  border-radius: 12px
 }
 .fakebutton,
 input[type="reset"],
 input[type="submit"] {
-  color: #494;
+  color: #e6e6e7;
   background: #000;
   border: 1px outset #191;
   border-radius: 2px;
@@ -734,9 +726,9 @@ input[type="submit"] {
 .fakebutton:active,
 input[type=reset]:active,
 input[type=submit]:active {
-  background: #f60!important;
-  color: #ee9!important;
-  border: 1px solid #f60;
+  background: #da736b!important;
+  color: #e6e6e7!important;
+  border: 1px solid #da736b;
   filter: none;
   box-shadow: inset 3px 3px 3px #000;
   box-shadow: inset 0 0 0 1px #000,inset 3px 3px 3px #000
@@ -745,10 +737,11 @@ button,
 input[type="reset"],
 input[type="submit"],
 select {
-  border: 1px solid #8b8;
-  border-bottom: 1px solid #171;
-  border-right: 1px solid #171;
-  background: linear-gradient(to bottom, #020 0, #000 20%, #000 80%, #010 100%)!important
+  border: 1px groove #332940;
+  border-bottom: 1px groove #292929;
+  border-right: 1px groove #292929;
+  background: #1f1a24!important;
+  border-radius: 12px
 }
 input[type="text"] {
   padding: 4px!important
@@ -756,13 +749,13 @@ input[type="text"] {
 input[type="text"],
 textarea {
   background: #000;
-  background: linear-gradient(to bottom, #000 0, #010 100%)!important;
   box-shadow: inset 0 0 3px 3px #000;
-  color: #bb7
+  color: #bb7;
+  border-radius: 2px
 }
 textarea {
   color: #bb7;
-  border: 1px solid #2a5f29;
+  border: 1px solid #292929;
   padding: 3px 5px;
   font: bold 8.5pt "Droid Sans Mono","Noto Mono","Lucida Console","DejaVu Sans Mono",monospace;
   border-radius: 2px;
@@ -777,7 +770,7 @@ textarea[cols="70"] {
 }
 input:focus,
 textarea:focus {
-  color: #ee9;
+  color: #e6e6e7;
   background: #000!important;
   filter: drop-shadow(0 0 1px #880);
   transition: filter 0.3s;
@@ -788,7 +781,7 @@ textarea:focus {
   box-shadow: inset 0 0 1px #880
 }
 input[name="search"] {
-  background: url(/themes/console/images/buttons/search.png) 5px center no-repeat,linear-gradient(to bottom, #000 0, #010 100%)!important;
+  background: url(/themes/console/images/buttons/search.png) 5px center no-repeat,#000!important;
   padding: 5px 5px 5px 25px!important
 }
 input[name="search"]:focus {
@@ -797,20 +790,19 @@ input[name="search"]:focus {
 }
 .headline h3 {
   padding: 10px 5px 10px 35px;
-  background: url(/themes/susidns/images/addressbook.png) 5px center no-repeat,linear-gradient(to bottom, #1a261a 0, #223022 7%, #212f21 9%, #172317 21%, #091109 49%, #050d05 50%, #020602 51%, #010301 53%, #000 56%, #000 100%);
-  background: url(/themes/susidns/images/addressbook.png) 5px center no-repeat,linear-gradient(to bottom, rgba(0,0,0,0) 50%, #000 50%),repeating-linear-gradient(to right, rgba(0,0,0,0.5) 1px, rgba(0,0,0,0.5) 2px, rgba(0,16,0,0.5) 2px, rgba(0,16,0,0.5) 4px),linear-gradient(to bottom, #004000, #000 75%);
+  background: url(/themes/susidns/images/addressbook.png) 5px center no-repeat,#1f1a24;
   font-size: 11pt;
   text-transform: uppercase;
   letter-spacing: 0.08em;
   word-spacing: 0.1em
 }
 .headline#subscriptions h3 {
-  background: url(/themes/susidns/images/subs_24.png) 5px center no-repeat,linear-gradient(to bottom, #1a261a 0, #223022 7%, #212f21 9%, #172317 21%, #091109 49%, #050d05 50%, #020602 51%, #010301 53%, #000 56%, #000 100%);
-  background: url(/themes/susidns/images/subs_24.png) 5px center no-repeat,linear-gradient(to bottom, rgba(0,0,0,0) 50%, #000 50%),repeating-linear-gradient(to right, rgba(0,0,0,0.5) 1px, rgba(0,0,0,0.5) 2px, rgba(0,16,0,0.5) 2px, rgba(0,16,0,0.5) 4px),linear-gradient(to bottom, #004000, #000 75%)
+  background: url(/themes/susidns/images/subs_24.png) 5px center no-repeat;
+  background: url(/themes/susidns/images/subs_24.png) 5px center no-repeat
 }
 .headline#configure h3 {
-  background: url(/themes/susidns/images/configure_24.png) 5px center no-repeat,linear-gradient(to bottom, #1a261a 0, #223022 7%, #212f21 9%, #172317 21%, #091109 49%, #050d05 50%, #020602 51%, #010301 53%, #000 56%, #000 100%);
-  background: url(/themes/susidns/images/configure_24.png) 5px center no-repeat,linear-gradient(to bottom, rgba(0,0,0,0) 50%, #000 50%),repeating-linear-gradient(to right, rgba(0,0,0,0.5) 1px, rgba(0,0,0,0.5) 2px, rgba(0,16,0,0.5) 2px, rgba(0,16,0,0.5) 4px),linear-gradient(to bottom, #004000, #000 75%)
+  background: url(/themes/susidns/images/configure_24.png) 5px center no-repeat;
+  background: url(/themes/susidns/images/configure_24.png) 5px center no-repeat
 }
 #export {
   text-align: right;
@@ -832,8 +824,8 @@ p.book {
 }
 #messages + p,
 p.book {
-  border: 1px solid #2a5f29;
-  background: url(/themes/susidns/images/addressbook.png) 5px center no-repeat #000
+  border: 1px solid #292929;
+  background: url(/themes/susidns/images/addressbook.png) 5px center no-repeat #332940
 }
 #messages + form[action="export"] {
   display: none
@@ -877,7 +869,7 @@ p.book {
 }
 .names a:focus img,
 .names img:hover {
-  border: 1px solid #f60
+  border: 1px solid #da736b
 }
 .names a:active img,
 .names a:focus img {
@@ -962,7 +954,7 @@ p.book {
 #host_list td:nth-child(3) a:hover,
 #host_list td:nth-child(4) a:focus,
 #host_list td:nth-child(4) a:hover {
-  filter: drop-shadow(0 0 1px #f60)
+  filter: drop-shadow(0 0 1px #da736b)
 }
 .destaddress:focus {
   background: #001a00;
@@ -1016,7 +1008,7 @@ _:-ms-lang(x),
   #navi a#overview:active,
   #navi a#subs:active,
   #navi a.abook:active {
-    background: #f60!important
+    background: #da736b!important
   }
 }
 @media screen and (max-width: 1000px) {
@@ -1075,7 +1067,7 @@ _:-ms-lang(x),
     min-width: 14px
   }
   div#filter {
-    background: linear-gradient(to right, #000, #001000 10%, #001000 90%, #000)
+    background: #332940
   }
   form[action="addressbook"] > p.buttons {
     margin-bottom: -20px

@@ -412,7 +412,7 @@ div.warning {
 #sb_warning {
   padding: 4px 4px 4px 26px;
   background: #000;
-  background: url(console/dark-modern/images/warning24x24.png) 4px center no-repeat,linear-gradient(to right, #001900, #001000 5%, #000 25%, #000 50%, #000 75%, #001000 95%, #001900);
+  background: url(images/warning24x24.png) 4px center no-repeat,linear-gradient(to right, #001900, #001000 5%, #000 25%, #000 50%, #000 75%, #001000 95%, #001900);
   background-size: 22px 22px,100% 100%;
   text-align: center;
   line-height: 120%
@@ -557,7 +557,7 @@ div.refresh {
 .sb_newsheadings td {
   padding: 4px 5px 4px 24px;
   text-align: left;
-  background: url(console/dark-modern/images/newsbullet_mini.png) 4px center no-repeat!important;
+  background: url(images/newsbullet_mini.png) 4px center no-repeat!important;
   border-bottom: 1px solid #131!important
 }
 .sb_newsheadings tr:last-child td {
@@ -804,7 +804,7 @@ a:active img[src="/themes/console/images/i2plogo.png"] {
   background-size: 3px 3px,175px 175px
 }
 .main#news {
-  background: url(console/dark-modern/images/news.png) bottom right no-repeat #000!important
+  background: url(images/news.png) bottom right no-repeat #000!important
 }
 #news h3 {
   padding: 6px 8px 6px 10px;
@@ -835,8 +835,8 @@ div.news {
   margin: -1px 5px 0 216px;
   padding: 6px 15px 8px;
   border: 1px solid #292929;
-  background: url(console/dark-modern/images/news.png) bottom right no-repeat #000;
-  background: linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.5)),url(console/dark-modern/images/news.png) right bottom no-repeat,#1f1a24!important;
+  background: url(images/news.png) bottom right no-repeat #000;
+  background: linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.5)),url(images/news.png) right bottom no-repeat,#1f1a24!important;
   background-blend-mode: lighten;
   color: #e6e6e7;
   font-size: 8pt;
@@ -847,11 +847,11 @@ div.news {
 }
 _:-ms-lang(x),
 div.news {
-  background: #000 url(console/dark-modern/images/news.png) no-repeat scroll bottom right
+  background: #000 url(images/news.png) no-repeat scroll bottom right
 }
 div.news li {
   text-align: justify;
-  list-style: url(console/dark-modern/images/info_dark.png);
+  list-style: url(images/info_dark.png);
   list-style: none;
   margin: 0;
   padding: 5px 5px 5px 0;
@@ -1011,7 +1011,7 @@ div.messages {
   margin: 10px 0 15px;
   border: 1px solid #292929;
   background: #1f1a24;
-  background: url(console/dark-modern/images/infohelp.png) 12px center no-repeat,right bottom no-repeat #1f1a24;
+  background: url(images/infohelp.png) 12px center no-repeat,right bottom no-repeat #1f1a24;
   background-size: 28px 28px,auto 90%;
   font-weight: bold;
   font-size: 9.5pt;
@@ -1329,10 +1329,10 @@ td img {
   box-shadow: inset 1px 1px 1px #000
 }
 .sortup {
-  background: url(console/dark-modern/images/sort_up.png) center center no-repeat,linear-gradient(to bottom, #040, #000)
+  background: url(images/sort_up.png) center center no-repeat,linear-gradient(to bottom, #040, #000)
 }
 .sortup:hover {
-  background: url(console/dark-modern/images/sort_up.png) center center no-repeat,linear-gradient(to bottom, #000, #040);
+  background: url(images/sort_up.png) center center no-repeat,linear-gradient(to bottom, #000, #040);
   border: 1px solid #494
 }
 .sortdown a:focus,
@@ -1345,17 +1345,17 @@ td img {
   display: inline-block
 }
 .sortupactive {
-  background: url(console/dark-modern/images/sort_up.png) center center no-repeat,#050
+  background: url(images/sort_up.png) center center no-repeat,#050
 }
 .sortdown {
-  background: url(console/dark-modern/images/sort_down.png) center center no-repeat,linear-gradient(to bottom, #040, #000)
+  background: url(images/sort_down.png) center center no-repeat,linear-gradient(to bottom, #040, #000)
 }
 .sortdown:hover {
-  background: url(console/dark-modern/images/sort_down.png) center center no-repeat,linear-gradient(to bottom, #000, #040);
+  background: url(images/sort_down.png) center center no-repeat,linear-gradient(to bottom, #000, #040);
   border: 1px solid #494
 }
 .sortdownactive {
-  background: url(console/dark-modern/images/sort_down.png) center center no-repeat,#050;
+  background: url(images/sort_down.png) center center no-repeat,#050;
   border: 1px solid #050
 }
 tt {
@@ -1450,7 +1450,7 @@ a:active {
   margin-top: 10px
 }
 .links li {
-  list-style-image: url(console/dark-modern/images/link.png)!important;
+  list-style-image: url(images/link.png)!important;
   text-align: justify!important;
   line-height: 160%!important
 }
@@ -1536,7 +1536,7 @@ h1 {
   letter-spacing: 0.15em;
   text-shadow: 0 0 2px #010;
   white-space: normal;
-  background: url(console/dark-modern/images/header.png) center center #000;
+  background: url(images/header.png) center center #000;
   border: 1px solid #292929;
   border-radius: 2px 2px 0 0;
   line-height: 120%;
@@ -1842,7 +1842,7 @@ select {
   -moz-appearance: none;
   -webkit-appearance: none;
   appearance: none;
-  background: url(console/dark-modern/images/dropdown.png) right center no-repeat #332940!important;
+  background: url(images/dropdown.png) right center no-repeat #332940!important;
   color: #494;
   margin: 5px 10px;
   border: 1px outset #191;
@@ -1877,7 +1877,7 @@ select:hover {
 select:active,
 select:focus,
 select:hover {
-  background: url(console/dark-modern/images/dropdown_hover.png) right center no-repeat #1f1a24!important
+  background: url(images/dropdown_hover.png) right center no-repeat #1f1a24!important
 }
 select::-ms-expand {
   display: none
@@ -2270,7 +2270,7 @@ form[action="events"] {
 }
 .tablefooter td,
 tr.tablefooter {
-  background: url(console/dark-modern/images/header.png) center center repeat-x #000!important;
+  background: url(images/header.png) center center repeat-x #000!important;
   background: linear-gradient(to bottom, #002000, #1f1a24 75%)!important;
   border: 1px groove #524b5e!important;
   line-height: 110%;
@@ -2785,7 +2785,7 @@ h3#langheading {
 select#langsettings {
   border: 1px solid #292929;
   padding: 8px 7px 12px;
-  background: url(console/dark-modern/images/dropdown.png) right center no-repeat,#332940;
+  background: url(images/dropdown.png) right center no-repeat,#332940;
   font-size: large;
   height: 3rem;
   width: 15rem
@@ -2975,7 +2975,7 @@ p#defaultswork {
 p#confignotes {
   margin-bottom: -21px;
   padding: 15px 15px 15px 50px;
-  background: url(console/dark-modern/images/infohelp.png) 12px center no-repeat
+  background: url(images/infohelp.png) 12px center no-repeat
 }
 p#externaltcp,
 p#ipconfig,
@@ -3188,7 +3188,7 @@ p#keyringhelp,
 p#pluginconfigtext,
 p#upnpstatus,
 p#webappconfig {
-  background: url(console/dark-modern/images/infohelp.png) 12px center no-repeat #1f1a24;
+  background: url(images/infohelp.png) 12px center no-repeat #1f1a24;
   border: 1px solid #292929;
   padding: 15px 15px 15px 50px
 }
@@ -3540,7 +3540,7 @@ table#externali2cp {
   background: #1f1a24
 }
 #volunteer {
-  background: linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.5)),url(console/dark-modern/images/news.png) right bottom no-repeat,#1f1a24!important;
+  background: linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.5)),url(images/news.png) right bottom no-repeat,#1f1a24!important;
   background-blend-mode: lighten;
   background-size: auto 75%
 }
@@ -3925,7 +3925,7 @@ img.unknownflag {
   margin-top: 15px
 }
 #bugreports td {
-  background: url(console/dark-modern/images/infohelp.png) 12px center no-repeat!important;
+  background: url(images/infohelp.png) 12px center no-repeat!important;
   padding: 15px 10px 15px 50px
 }
 #enviro:hover {
@@ -4313,7 +4313,7 @@ ul#banlist + hr {
 #ipv4,
 #ipv6,
 #permabanned tr:nth-child(2) {
-  background: url(console/dark-modern/images/header.png) center center repeat-x #000;
+  background: url(images/header.png) center center repeat-x #000;
   background: linear-gradient(to bottom, #002000, #000 75%)!important;
   border-top: 1px solid #494;
   border-bottom: 1px solid #494
@@ -4471,7 +4471,7 @@ table.search {
   margin-top: -9px
 }
 .search tr {
-  background: url(console/dark-modern/images/header.png) center center repeat-x #000;
+  background: url(images/header.png) center center repeat-x #000;
   background: linear-gradient(to bottom, #001000, #001900 50%, #000 51%, #000)!important
 }
 .search td {
@@ -4807,7 +4807,7 @@ table#leasesetsummary th a:hover {
 #noleasesets,
 #notinitialized,
 .netdbnotfound {
-  background: url(console/dark-modern/images/infohelp.png) 12px center no-repeat #000;
+  background: url(images/infohelp.png) 12px center no-repeat #000;
   padding: 15px 15px 15px 50px;
   border: 1px solid #292929;
   margin-bottom: 10px;
@@ -4913,8 +4913,8 @@ p.threatpoints {
   margin: 3px 0;
   color: #cc0;
   font-weight: bold;
-  background: url(console/dark-modern/images/eye.png) 8px center no-repeat;
-  background: url(console/dark-modern/images/eye.png) 8px center no-repeat,linear-gradient(to right, #000 0, #001000 80%, #002000 100%);
+  background: url(images/eye.png) 8px center no-repeat;
+  background: url(images/eye.png) 8px center no-repeat,linear-gradient(to right, #000 0, #001000 80%, #002000 100%);
   background-blend-mode: luminosity;
   box-shadow: inset 0 0 0 1px #300
 }
@@ -4969,7 +4969,7 @@ h3#iptransport a:not(old) {
 }
 h3#advancedconfig a::after,
 h3#iptransport a::after {
-  content: url(console/dark-modern/images/help.png);
+  content: url(images/help.png);
   padding: 0;
   margin: 0;
   vertical-align: text-top;
@@ -5043,7 +5043,7 @@ p.infohelp {
 }
 p.infowarn,
 td.infowarn {
-  background: url(console/dark-modern/images/infowarn.png) 12px center no-repeat #1f1a24!important;
+  background: url(images/infowarn.png) 12px center no-repeat #1f1a24!important;
   border: 1px solid #292929;
   box-shadow: inset 0 0 0 1px #300;
   padding: 15px 15px 15px 50px;
@@ -5152,7 +5152,7 @@ table#advconf {
 }
 p#javaclienthelp {
   border: 1px solid #292929;
-  background: url(console/dark-modern/images/infohelp.png) 12px center no-repeat!important;
+  background: url(images/infohelp.png) 12px center no-repeat!important;
   padding: 10px 10px 10px 50px!important
 }
 div#clientsconfig {
@@ -5203,7 +5203,7 @@ input#hideme {
 }
 h4.embeddedtitle#updateplugins {
   padding: 5px 10px;
-  background: url(console/dark-modern/images/header.png) center center repeat-x #000;
+  background: url(images/header.png) center center repeat-x #000;
   background: linear-gradient(to bottom, #332940 10%, #1f1a24 50%);
   border: 1px solid #292929;
   text-align: left;

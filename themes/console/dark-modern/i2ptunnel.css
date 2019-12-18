@@ -3,22 +3,19 @@ body {
   padding: 0;
   text-align: center;
   font-family: "Droid Sans","Noto Sans",Ubuntu,"Segoe UI","Bitstream Vera Sans","DejaVu Sans",Verdana,"Lucida Grande",Helvetica,sans-serif;
-  background: url(console/dark-modern/images/camotile.png) center bottom #010;
-  color: #ee9;
+  background: #1f1a24;
+  color: #e6e6e7;
   font-size: 9pt
 }
 body.iframed {
-  background: url(/themes/console/images/transparent.gif)!important;
   margin: 0;
   padding: 0;
   overflow: hidden
 }
 ::selection {
-  background: #030!important;
   color: #fff
 }
 ::-moz-selection {
-  background: #030!important;
   color: #fff
 }
 * {
@@ -33,7 +30,7 @@ a {
   font-weight: bold
 }
 a:link {
-  color: #494;
+  color: #e6e6e7;
   outline: 0
 }
 a:visited {
@@ -60,19 +57,19 @@ div.statusNotRunning {
   height: 16px;
   overflow: hidden;
   color: #d00;
-  background: url(console/dark-modern/images/console_status_stopped.png) center center no-repeat
+  background: url(images/console_status_stopped.png) center center no-repeat
 }
 div.statusRunning {
   height: 16px;
   overflow: hidden;
   color: #0b0;
-  background: url(console/dark-modern/images/console_status_running.png) center center no-repeat
+  background: url(images/console_status_running.png) center center no-repeat
 }
 div.statusStarting {
   height: 16px;
   overflow: hidden;
   color: #393;
-  background: url(console/dark-modern/images/console_status_starting.png) center center no-repeat
+  background: url(images/console_status_starting.png) center center no-repeat
 }
 div[class^="status"] {
   font-size: 0!important;
@@ -100,7 +97,7 @@ hr {
   max-width: 1400px;
   overflow: hidden;
   text-align: left;
-  color: #ee9;
+  color: #e6e6e7;
   background: none
 }
 .panel:first-child {
@@ -135,38 +132,36 @@ h2,
 h3 {
   margin: 10px 0 -1px;
   padding: 8px 10px 8px 34px;
-  border: 1px solid #494;
+  border: 1px solid #292929;
   font-size: 11pt;
-  color: #ee9;
+  color: #e6e6e7;
   text-transform: uppercase;
   letter-spacing: 0.08em;
   word-spacing: 0.1em;
   text-shadow: 0 1px 1px #000;
-  box-shadow: inset 0 0 0 1px #000;
-  background: linear-gradient(to bottom, #1a261a 50%, #000 50%)!important;
-  background: linear-gradient(to bottom, rgba(0,0,0,0) 50%, #000 50%),repeating-linear-gradient(to right, rgba(0,0,0,0.5) 1px, rgba(0,0,0,0.5) 2px, rgba(0,16,0,0.5) 2px, rgba(0,16,0,0.5) 4px),linear-gradient(to bottom, #004000, #000 75%),url(/themes/console/dark/images/camotile2.png) top left!important
+  box-shadow: inset 0 0 0 1px #000
 }
 #messages h2 {
-  background: url(/themes/console/images/info/logs.png) left 8px center no-repeat,linear-gradient(to bottom, #1a261a 50%, #000 50%)!important;
-  background: url(/themes/console/images/info/logs.png) left 8px center no-repeat,linear-gradient(to right, #000, rgba(0,0,0,0) 30%),linear-gradient(to bottom, rgba(0,0,0,0) 50%, rgba(0,16,0,0.2) 50%, rgba(0,0,0,0.6)),url(/themes/console/dark/images/camotile2.png) top left,linear-gradient(to bottom, rgba(0,0,0,0) 50%, #000 50%),repeating-linear-gradient(to right, rgba(0,0,0,0.5) 1px, rgba(0,0,0,0.5) 2px, rgba(0,32,0,0.8) 2px, rgba(0,32,0,0.8) 4px)!important;
+  background: url(/themes/console/images/info/logs.png) left 8px center no-repeat!important;
+  background: url(/themes/console/images/info/logs.png) left 8px center no-repeat!important;
   background-size: 20px auto,100% 100%,100% 100%,175px 175px,100% 100%,100% 100%!important;
   background-blend-mode: normal,normal,normal,exclusion,normal,normal
 }
 #globalTunnelControl h2 {
-  background: url(/themes/console/images/info/control.png) left 8px center no-repeat,linear-gradient(to bottom, #1a261a 50%, #000 50%)!important;
-  background: url(/themes/console/images/info/control.png) left 8px center no-repeat,linear-gradient(to right, #000, rgba(0,0,0,0) 30%),linear-gradient(to bottom, rgba(0,0,0,0) 50%, rgba(0,16,0,0.2) 50%, rgba(0,0,0,0.6)),url(/themes/console/dark/images/camotile2.png) top left,linear-gradient(to bottom, rgba(0,0,0,0) 50%, #000 50%),repeating-linear-gradient(to right, rgba(0,0,0,0.5) 1px, rgba(0,0,0,0.5) 2px, rgba(0,32,0,0.8) 2px, rgba(0,32,0,0.8) 4px)!important;
+  background: url(/themes/console/images/info/control.png) left 8px center no-repeat!important;
+  background: url(/themes/console/images/info/control.png) left 8px center no-repeat!important;
   background-size: 20px auto,100% 100%,100% 100%,175px 175px,100% 100%,100% 100%!important;
   background-blend-mode: normal,normal,normal,exclusion,normal,normal
 }
 #servers h2 {
-  background: url(/themes/console/images/info/server.png) left 8px center no-repeat,linear-gradient(to bottom, #1a261a 50%, #000 50%)!important;
-  background: url(/themes/console/images/info/server.png) left 8px center no-repeat,linear-gradient(to right, #000, rgba(0,0,0,0) 30%),linear-gradient(to bottom, rgba(0,0,0,0) 50%, rgba(0,16,0,0.2) 50%, rgba(0,0,0,0.6)),url(/themes/console/dark/images/camotile2.png) top left,linear-gradient(to bottom, rgba(0,0,0,0) 50%, #000 50%),repeating-linear-gradient(to right, rgba(0,0,0,0.5) 1px, rgba(0,0,0,0.5) 2px, rgba(0,32,0,0.8) 2px, rgba(0,32,0,0.8) 4px)!important;
+  background: url(/themes/console/images/info/server.png) left 8px center no-repeat!important;
+  background: url(/themes/console/images/info/server.png) left 8px center no-repeat!important;
   background-size: 20px auto,100% 100%,100% 100%,175px 175px,100% 100%,100% 100%!important;
   background-blend-mode: normal,normal,normal,exclusion,normal,normal
 }
 #clients h2 {
-  background: url(/themes/console/images/info/client.png) left 8px center no-repeat,linear-gradient(to bottom, #1a261a 50%, #000 50%)!important;
-  background: url(/themes/console/images/info/client.png) left 8px center no-repeat,linear-gradient(to right, #000, rgba(0,0,0,0) 30%),linear-gradient(to bottom, rgba(0,0,0,0) 50%, rgba(0,16,0,0.2) 50%, rgba(0,0,0,0.6)),url(/themes/console/dark/images/camotile2.png) top left,linear-gradient(to bottom, rgba(0,0,0,0) 50%, #000 50%),repeating-linear-gradient(to right, rgba(0,0,0,0.5) 1px, rgba(0,0,0,0.5) 2px, rgba(0,32,0,0.8) 2px, rgba(0,32,0,0.8) 4px)!important;
+  background: url(/themes/console/images/info/client.png) left 8px center no-repeat!important;
+  background: url(/themes/console/images/info/client.png) left 8px center no-repeat!important;
   background-size: 20px auto,100% 100%,100% 100%,175px 175px,100% 100%,100% 100%!important;
   background-blend-mode: normal,normal,normal,exclusion,normal,normal
 }
@@ -174,8 +169,8 @@ h3 {
 #registration h3,
 #tunnelEditPage h2,
 #tunnelEditPage h3 {
-  background: url(/themes/console/images/info/configure.png) left 8px center no-repeat,linear-gradient(to bottom, #1a261a 50%, #000 50%)!important;
-  background: url(/themes/console/images/info/configure.png) left 8px center no-repeat,linear-gradient(to right, #000, rgba(0,0,0,0) 30%),linear-gradient(to bottom, rgba(0,0,0,0) 50%, rgba(0,16,0,0.2) 50%, rgba(0,0,0,0.6)),url(/themes/console/dark/images/camotile2.png) top left,linear-gradient(to bottom, rgba(0,0,0,0) 50%, #000 50%),repeating-linear-gradient(to right, rgba(0,0,0,0.5) 1px, rgba(0,0,0,0.5) 2px, rgba(0,32,0,0.5) 2px, rgba(0,32,0,0.8) 4px)!important;
+  background: url(/themes/console/images/info/configure.png) left 8px center no-repeat!important;
+  background: url(/themes/console/images/info/configure.png) left 8px center no-repeat!important;
   background-size: 20px auto,100% 100%,100% 100%,175px 175px,100% 100%,100% 100%!important;
   background-blend-mode: normal,normal,normal,exclusion,normal,normal
 }
@@ -198,18 +193,15 @@ h3 {
 .panel table {
   width: 100%;
   border-collapse: collapse;
-  border: 1px solid #494;
+  border: 1px solid #292929;
   margin: 0
 }
 th {
-  background: #000;
-  background: linear-gradient(to bottom, #1a261a 0, #223022 7%, #212f21 9%, #172317 21%, #091109 49%, #050d05 50%, #020602 51%, #010301 53%, #000 56%, #000 100%);
-  background: linear-gradient(to bottom, rgba(0,0,0,0) 50%, #000 50%),repeating-linear-gradient(to right, rgba(0,0,0,0.5) 1px, rgba(0,0,0,0.5) 2px, rgba(0,16,0,0.5) 2px, rgba(0,16,0,0.5) 4px),linear-gradient(to bottom, #002000, #000 75%);
   padding: 7px 5px;
-  border-top: 1px solid #494;
-  border-bottom: 1px solid #494;
+  border-top: 1px solid #7778bf;
+  border-bottom: 1px solid #7778bf;
   font-size: 9pt;
-  color: #ee9;
+  color: #e6e6e7;
   text-align: left;
   text-transform: uppercase;
   letter-spacing: 0.08em;
@@ -233,7 +225,7 @@ td > b {
   min-width: 30px
 }
 td.infohelp {
-  background: url(console/dark-modern/images/infohelp.png) 10px center no-repeat;
+  background: url(images/infohelp.png) 10px center no-repeat;
   background-size: 20px 20px;
   padding: 10px 10px 10px 38px!important
 }
@@ -242,35 +234,35 @@ td.infohelp {
 }
 .tunnelConfig td:first-child,
 .tunnelConfig th:first-child {
-  border-left: 1px solid #494
+  border-left: 1px solid #433e47
 }
 .tunnelConfig td:last-child,
 .tunnelConfig th:last-child {
-  border-right: 1px solid #494
+  border-right: 1px solid #433e47
 }
 #clientTunnels tr,
 #serverTunnels tr,
 .tunnelConfig tr {
-  background: rgba(0,4,0,0.4)
+  background: #1f1a24
+}
+#advancedServerTunnelOptions tr,
+#advancedServerTunnelOptions tr {
+  background: #332940
 }
 .tunnelProperties {
-  background: #000!important;
   overflow: hidden;
-  text-align: left;
-  border: 1px solid #494;
-  border-bottom: 1px inset #010!important
+  text-align: left
 }
 #serverTunnels {
   margin: -1px 0 10px
 }
 .tunnelProperties:hover {
-  background: #020!important
+  background: #7778bf!important
 }
 .newTunnel {
   text-align: right;
   border-top: 1px solid #494!important;
-  padding: 5px!important;
-  background: #fff
+  padding: 5px!important
 }
 .newTunnel .control,
 .newTunnel input,
@@ -328,7 +320,7 @@ th.tunnelControl {
   text-align: center
 }
 textarea {
-  border: 1px solid #494;
+  border: 1px solid #433e47;
   background: #000;
   margin-left: 4px;
   margin-right: 4px;
@@ -338,7 +330,7 @@ textarea {
   border-radius: 2px
 }
 textarea:focus {
-  color: #ee9;
+  color: #e6e6e7;
   background: #000!important;
   filter: drop-shadow(0 0 1px #880);
   transition: filter 0.3s;
@@ -349,7 +341,6 @@ textarea#statusMessages,
 textarea#statusMessages:active,
 textarea#statusMessages:focus {
   background: #000;
-  background: linear-gradient(to bottom, #000 0, #010 100%)!important;
   box-shadow: inset 0 0 3px 3px #000!important;
   margin: 0;
   border: 0;
@@ -370,7 +361,7 @@ textarea#statusMessages:focus {
 }
 .freetext {
   width: 150px;
-  border: 1px solid #494;
+  border: 1px solid #433e47;
   padding: 4px;
   font: 8.5pt "Droid Sans Mono","Noto Mono","Lucida Console","DejaVu Sans Mono",monospace;
   background: #fff;
@@ -405,16 +396,16 @@ select {
   box-sizing: border-box;
   font-size: 9pt;
   border-radius: 2px;
-  color: #ee9;
+  color: #e6e6e7;
   resize: none;
   cursor: pointer
 }
 input {
   background-color: #020;
-  color: #ee9;
+  color: #e6e6e7;
   margin: 0 2px;
   font-family: "Droid Sans","Noto Sans",Ubuntu,"Segoe UI","Bitstream Vera Sans","DejaVu Sans",Verdana,"Lucida Grande",Helvetica,sans-serif;
-  border: 1px solid #494;
+  border: 1px solid #433e47;
   text-decoration: none
 }
 button::-moz-focus-inner,
@@ -434,14 +425,14 @@ input[type="radio"] {
   min-height: 16px;
   margin: 0;
   background: none;
-  filter: invert(100%) sepia(100%) hue-rotate(70deg) saturate(200%)
+  filter: invert(100%) sepia(100%)
 }
 input[type="checkbox"]:focus,
 input[type="checkbox"]:hover,
 input[type="radio"]:focus,
 input[type="radio"]:hover {
   outline: 0;
-  filter: invert(100%) sepia(100%) hue-rotate(70deg) saturate(200%) drop-shadow(0 0 3px #f60)
+  filter: invert(100%) sepia(100%) hue-rotate(70deg) saturate(200%) drop-shadow(0 0 3px #da736b)
 }
 label {
   cursor: pointer
@@ -454,24 +445,22 @@ input[type="text"],
 textarea,
 textarea[readonly="readonly"]:focus {
   background: #000;
-  background: linear-gradient(to bottom, #000 0, #010 100%);
   box-shadow: inset 0 0 3px 3px #000;
   filter: none;
-  color: #bb7
+  color: #e6e6e7
 }
 textarea[readonly="readonly"]:focus {
   box-shadow: inset 0 0 0 1px #880
 }
 input[type="password"]:focus,
 input[type="text"]:focus {
-  color: #ee9;
+  color: #e6e6e7;
   background: #000;
   filter: drop-shadow(0 0 1px #880);
   transition: filter 0.3s
 }
 input[readonly="readonly"]:focus {
-  filter: none;
-  background: linear-gradient(to bottom, #000 0, #010 100%)!important
+  filter: none
 }
 a.control,
 input.control {
@@ -485,8 +474,7 @@ input.control {
   min-width: 78px;
   font-size: 8pt;
   font-weight: bold;
-  background: #000;
-  background: linear-gradient(to bottom, #020 0, #000 20%, #000 80%, #010 100%)!important;
+  background: #1f1a24;
   color: #494!important;
   border: 1px solid #8b8;
   border-bottom: 1px solid #171;
@@ -502,13 +490,11 @@ input.control {
   display: inline-block
 }
 .control:link {
-  color: #494!important;
-  background: #000!important;
-  background: linear-gradient(to bottom, #020 0, #000 20%, #000 80%, #010 100%)!important
+  color: #e6e6e7!important
 }
 .control:hover {
   border: 1px solid #f60;
-  background: #000;
+  background: #332940;
   color: #f60!important;
   text-decoration: none;
   box-shadow: inset 0 1px 1px 0 #eff
@@ -526,21 +512,22 @@ input.control {
   white-space: nowrap;
   text-decoration: none;
   font-style: normal;
-  border-radius: 2px;
+  border-radius: 12px;
   box-shadow: inset 0 0 0 1px #000;
   box-sizing: border-box;
-  min-width: 70px!important
+  min-width: 70px!important;
+  border: 1px groove #332940
 }
 .control:focus,
 .control:hover {
   text-decoration: none;
-  color: #f60!important;
-  border: 1px solid #f60!important;
+  color: #da736b!important;
+  border: 1px solid #da736b!important;
   box-shadow: inset 0 1px 1px 0 #eff
 }
 .control:active {
   background: #f60!important;
-  color: #ee9!important;
+  color: #e6e6e7!important;
   text-decoration: none;
   box-shadow: inset 0 0 0 1px #000!important;
   box-shadow: inset 0 0 0 1px #000,inset 3px 3px 3px #000!important
@@ -549,7 +536,7 @@ a.control {
   display: inline-block
 }
 select {
-  color: #494;
+  color: #e6e6e7;
   font-family: "Droid Sans","Noto Sans",Ubuntu,"Segoe UI","Bitstream Vera Sans","DejaVu Sans",Verdana,"Lucida Grande",Helvetica,sans-serif;
   font-weight: bold;
   font-size: 8pt!important;
@@ -557,13 +544,13 @@ select {
   -moz-appearance: none;
   -webkit-appearance: none;
   appearance: none;
-  background: url(console/dark-modern/images/dropdown.png) right center no-repeat #000!important;
+  background: url(images/dropdown.png) right center no-repeat #332940!important;
   border-radius: 2px;
   cursor: pointer;
   filter: drop-shadow(0 0 1px #000);
-  border: 1px solid #8b8;
-  border-bottom: 1px solid #171;
-  border-right: 1px solid #171;
+  border: 1px solid #1f1a24;
+  border-bottom: 1px solid #332940;
+  border-right: 1px solid #332940;
   min-width: 120px
 }
 select option {
@@ -576,16 +563,16 @@ select option:hover {
 }
 select:focus,
 select:hover {
-  color: #f60;
-  border: 1px solid #f60
+  color: #e6e6e7;
+  border: 1px solid #da736b
 }
 select:hover {
-  box-shadow: inset 0 1px 1px 0 #ee9
+  box-shadow: inset 0 1px 1px 0 #e6e6e7
 }
 select:active,
 select:focus,
 select:hover {
-  background: url(console/dark-modern/images/dropdown_hover.png) right center no-repeat #000!important
+  background: url(images/dropdown_hover.png) right center no-repeat #332940!important
 }
 select::-ms-expand {
   display: none
@@ -610,10 +597,8 @@ select {
 .newTunnel {
   text-align: right!important;
   padding: 7px 5px!important;
-  background: #000;
-  background: linear-gradient(to bottom, #010, #000);
-  background: linear-gradient(-135deg, #000, rgba(0,0,0,0) 40%),repeating-linear-gradient(to right, rgba(0,0,0,0.5) 1px, rgba(0,0,0,0.5) 2px, rgba(0,16,0,0.5) 2px, rgba(0,16,0,0.5) 4px),linear-gradient(to bottom, #020, #000 75%);
-  border-top: 1px solid #494!important
+  background: #1f1a24;
+  border-top: 1px solid #7778bf!important
 }
 .tunnelDescriptionLabel,
 .tunnelDestinationLabel {
@@ -753,17 +738,19 @@ td.blankColumn {
   width: 20%!important
 }
 #throttler tr:nth-child(odd) {
-  background: rgba(0,16,0,0.7)
+  background: #332940
 }
 #throttler tr:nth-child(even) {
-  background: rgba(0,8,0,0.7)
+  background: #332940
+}
+#serverTunnelEdit tr:nth-child(even) {
+  background: #332940
 }
 #throttler input[type="text"] {
   width: 80px
 }
 table {
-  background: url(console/dark-modern/images/camotile2.png) #000;
-  background: linear-gradient(to bottom, rgba(0,0,0,0.5),rgba(0,0,0,0.7)),url(console/dark-modern/images/camotile2.png)
+  
 }
 #tunnelMessages {
   padding: 0
@@ -923,8 +910,13 @@ input.tunnelName {
 }
 .tunnelConfig td,
 td {
-  border-top: 1px inset #1c3f1b;
+  border-top: 1px inset #433e47;
   padding: 8px 5px
+}
+.tunnelConfig tr:nth-child(even) {
+  border-top: 1px inset #433e47;
+  padding: 8px 5px;
+  background: #332940
 }
 input[type="checkbox"],
 input[type="radio"] {
@@ -999,7 +991,7 @@ _:-ms-lang(x),
 }
 td.tunnelDescription,
 td.tunnelDestination {
-  background: linear-gradient(to right, #000 50%, #010)
+  background: #332940
 }
 @media screen and (max-width: 800px) {
   .statusNotRunning,

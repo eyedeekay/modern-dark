@@ -307,15 +307,15 @@ p.infohelp,
 p.infowarn,
 td.infohelp,
 td.infowarn {
-  background: url(console/dark-modern/images/infohelp.png) right 8px center no-repeat #000!important;
+  background: url(images/infohelp.png) right 8px center no-repeat #000!important;
   padding: 15px 45px 15px 15px!important
 }
 p.infowarn,
 td.infowarn {
-  background: url(console/dark-modern/images/infowarn.png) right 8px center no-repeat #000!important
+  background: url(images/infowarn.png) right 8px center no-repeat #000!important
 }
 .main#config_update .messages {
-  background: url(console/dark-modern/images/infohelp.png) right 10px center no-repeat #000!important;
+  background: url(images/infohelp.png) right 10px center no-repeat #000!important;
   text-align: right;
   padding: 15px 55px 15px 15px
 }
@@ -391,7 +391,7 @@ table#addkeyring td.infohelp {
 p#helptranslate {
   text-align: right!important;
   padding-right: 50px!important;
-  background-image: url(console/dark-modern/images/infohelp.png);
+  background-image: url(images/infohelp.png);
   background-position: right 12px center!important
 }
 #consolepass input[name="name"],
@@ -449,7 +449,7 @@ div[lang="ar"] ul {
   margin-right: 20px!important
 }
 div[lang="ar"] ul li {
-  list-style-image: url(console/dark-modern/images/link.png)!important;
+  list-style-image: url(images/link.png)!important;
   list-style-position: outside;
   margin: 10px 15px 0 0!important;
   padding-left: 0!important;

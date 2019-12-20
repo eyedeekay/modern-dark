@@ -1642,7 +1642,7 @@ button:focus,
 button:hover {
   border: 1px solid #494;
   box-shadow: inset 0 1px 1px 0 #e6e6e7;
-  background: #000;
+  background: #332940;
   color: #494;
   cursor: pointer
 }
@@ -1883,8 +1883,7 @@ select::-ms-expand {
   display: none
 }
 textarea {
-  background: #000;
-  background: linear-gradient(to bottom, #000 0, #010 100%)!important;
+  background: #000!important;
   box-shadow: inset 0 0 3px 3px #000;
   color: #e6e6e7;
   padding: 5px;
@@ -2790,7 +2789,8 @@ select#langsettings {
   background: url(images/dropdown.png) right center no-repeat,#332940;
   font-size: large;
   height: 3rem;
-  width: 15rem
+  width: 15rem;
+  color: #e6e6e7
 }
 div#langsettings {
   border: 1px groove #524b5e
@@ -6462,7 +6462,11 @@ b.netdb_transport {
   }
   .appimg {
     height: 35px;
-    padding: 5px 0 8px
+    padding: 5px 0 8px;
+    filter: hue-rotate(50deg) brightness(85%) saturate(10000%)
+  }
+  .plugin {
+    filter: none
   }
   .app img {
     margin-top: -8px;

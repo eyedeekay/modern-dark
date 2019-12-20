@@ -27,35 +27,35 @@ build: clean
 	cp -rv $(I2PTHEMES)/snark/dark/images themes/snark/dark-modern/images
 	cp -rv $(I2PTHEMES)/susidns/dark/images themes/susidns/dark-modern/images
 	cp -rv $(I2PTHEMES)/susimail/dark/images themes/susimail/dark-modern/images
-	cleancss $(CLEANCSS_OPTS) --format beautify $(I2PTHEMES)/console/dark/console.css | sed 's|../../../../../home/idk/i2p/docs/themes/console/dark/||g' | \
-		sed 's|/home/idk/i2p/docs/||g' > \
+	cleancss $(CLEANCSS_OPTS) --format beautify $(I2PTHEMES)/console/dark/console.css | sed "s|../../../../..$(HOME)/i2p/docs/themes/console/dark/||g" | \
+		sed "s|$(HOME)/i2p/docs/||g" > \
 		themes/console/dark-modern/console.css
-	cleancss $(CLEANCSS_OPTS) --format beautify $(I2PTHEMES)/console/dark/console_ar.css | sed 's|../../../../../home/idk/i2p/docs/themes/console/dark/||g' | \
-		sed 's|/home/idk/i2p/docs/||g' > \
+	cleancss $(CLEANCSS_OPTS) --format beautify $(I2PTHEMES)/console/dark/console_ar.css | sed "s|../../../../..$(HOME)/i2p/docs/themes/console/dark/||g" | \
+		sed "s|$(HOME)/i2p/docs/||g" > \
 		themes/console/dark-modern/console_ar.css
-	cleancss $(CLEANCSS_OPTS) --format beautify $(I2PTHEMES)/console/dark/console_big.css | sed 's|../../../../../home/idk/i2p/docs/themes/console/dark/||g' | \
-		sed 's|/home/idk/i2p/docs/||g' > \
+	cleancss $(CLEANCSS_OPTS) --format beautify $(I2PTHEMES)/console/dark/console_big.css | sed "s|../../../../..$(HOME)/i2p/docs/themes/console/dark/||g" | \
+		sed "s|$(HOME)/i2p/docs/||g" > \
 		themes/console/dark-modern/console_big.css
-	cleancss $(CLEANCSS_OPTS) --format beautify $(I2PTHEMES)/console/dark/mobile.css | sed 's|../../../../../home/idk/i2p/docs/themes/console/dark/||g' | \
-		sed 's|/home/idk/i2p/docs/||g' > \
+	cleancss $(CLEANCSS_OPTS) --format beautify $(I2PTHEMES)/console/dark/mobile.css | sed "s|../../../../..$(HOME)/i2p/docs/themes/console/dark/||g" | \
+		sed "s|$(HOME)/i2p/docs/||g" > \
 		themes/console/dark-modern/mobile.css
-	cleancss $(CLEANCSS_OPTS) --format beautify $(I2PTHEMES)/console/dark/i2ptunnel.css | sed 's|../../../../../home/idk/i2p/docs/themes/console/dark/||g' | \
-		sed 's|/home/idk/i2p/docs/||g' > \
+	cleancss $(CLEANCSS_OPTS) --format beautify $(I2PTHEMES)/console/dark/i2ptunnel.css | sed "s|../../../../..$(HOME)/i2p/docs/themes/console/dark/||g" | \
+		sed "s|$(HOME)/i2p/docs/||g" > \
 		themes/console/dark-modern/i2ptunnel.css
-	cleancss $(CLEANCSS_OPTS) --format beautify $(I2PTHEMES)/snark/dark/snark.css | sed 's|../../../../../home/idk/i2p/docs/themes/console/dark/||g' | \
-		sed 's|/home/idk/i2p/docs/||g' > \
+	cleancss $(CLEANCSS_OPTS) --format beautify $(I2PTHEMES)/snark/dark/snark.css | sed "s|../../../../..$(HOME)/i2p/docs/themes/console/dark/||g" | \
+		sed "s|$(HOME)/i2p/docs/||g" > \
 		themes/snark/dark-modern/snark.css
-	cleancss $(CLEANCSS_OPTS) --format beautify $(I2PTHEMES)/snark/dark/nocollapse.css | sed 's|../../../../../home/idk/i2p/docs/themes/console/dark/||g' | \
-		sed 's|/home/idk/i2p/docs/||g' > \
+	cleancss $(CLEANCSS_OPTS) --format beautify $(I2PTHEMES)/snark/dark/nocollapse.css | sed "s|../../../../..$(HOME)/i2p/docs/themes/console/dark/||g" | \
+		sed "s|$(HOME)/i2p/docs/||g" > \
 		themes/snark/dark-modern/nocollapse.css
-	cleancss $(CLEANCSS_OPTS) --format beautify $(I2PTHEMES)/susidns/dark/susidns.css | sed 's|../../../../../home/idk/i2p/docs/themes/console/dark/||g' | \
-		sed 's|/home/idk/i2p/docs/||g' > \
+	cleancss $(CLEANCSS_OPTS) --format beautify $(I2PTHEMES)/susidns/dark/susidns.css | sed "s|../../../../..$(HOME)/i2p/docs/themes/console/dark/||g" | \
+		sed "s|$(HOME)/i2p/docs/||g" > \
 		themes/susidns/dark-modern/susidns.css
-	cleancss $(CLEANCSS_OPTS) --format beautify $(I2PTHEMES)/susimail/dark/susimail.css | sed 's|../../../../../home/idk/i2p/docs/themes/console/dark/||g' | \
-		sed 's|/home/idk/i2p/docs/||g' > \
+	cleancss $(CLEANCSS_OPTS) --format beautify $(I2PTHEMES)/susimail/dark/susimail.css | sed "s|../../../../..$(HOME)/i2p/docs/themes/console/dark/||g" | \
+		sed "s|$(HOME)/i2p/docs/||g" > \
 		themes/susimail/dark-modern/susimail.css
-	cleancss $(CLEANCSS_OPTS) --format beautify $(I2PTHEMES)/susimail/dark/mobile.css | sed 's|../../../../../home/idk/i2p/docs/themes/console/dark/||g' | \
-		sed 's|/home/idk/i2p/docs/||g' > \
+	cleancss $(CLEANCSS_OPTS) --format beautify $(I2PTHEMES)/susimail/dark/mobile.css | sed "s|../../../../..$(HOME)/i2p/docs/themes/console/dark/||g" | \
+		sed "s|$(HOME)/i2p/docs/||g" > \
 		themes/susimail/dark-modern/mobile.css
 
 install:
@@ -81,3 +81,15 @@ remove:
 
 check:
 	find $(I2PTHEMES) -name dark-modern
+
+checkin:
+	cp $(I2PTHEMES)/console/dark/console.css \
+		$(HOME)/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/themes/console/dark/console.css
+	cp $(I2PTHEMES)/console/dark/i2ptunnel.css \
+		$(HOME)/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/themes/console/dark/i2ptunnel.css
+	cp $(I2PTHEMES)/snark/dark/snark.css \
+		$(HOME)/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/themes/snark/dark/snark.css
+	cp $(I2PTHEMES)/susidns/dark/susidns.css \
+		$(HOME)/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/themes/susidns/dark/susidns.css
+	cp $(I2PTHEMES)/susimail/dark/susimail.css \
+		$(HOME)/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/themes/susimail/dark/susimail.css

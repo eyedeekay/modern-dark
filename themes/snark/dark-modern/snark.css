@@ -1243,7 +1243,6 @@ textarea[name="nofilter_newComment"] {
   color: #bb7;
   padding: 4px 5px!important;
   background: #000;
-  background: linear-gradient(to bottom, #000, #010);
   box-shadow: inset 0 0 3px 3px #000;
   outline: 0
 }

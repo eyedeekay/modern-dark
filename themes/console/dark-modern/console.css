@@ -2472,7 +2472,6 @@ tr#addnew:hover {
   transition: transform 0.05s
 }
 .themechoice:hover .themelabel {
-  border-top: 1px solid #494!important;
   background: #7789bf
 }
 .themechoice:active .themelabel {
@@ -2551,7 +2550,6 @@ p#helptranslate {
   min-height: 16px
 }
 .themelabel {
-  border-top: 1px solid #262!important;
   margin-left: -4px;
   margin-right: -4px;
   padding: 4px 2px 5px;
@@ -4384,7 +4382,7 @@ ul#banlist + hr {
 }
 h4.app,
 h4.app2 {
-  background: linear-gradient(to bottom, #332940 10%, #1f1a24 30%);
+  background: #1f1a24;
   border: 1px groove #524b5e;
   font-size: 10.5pt;
   font-variant: small-caps;
@@ -4423,7 +4421,7 @@ div.app {
 }
 div.app:hover {
   opacity: 1;
-  border: 1px solid #da736b;
+  border: 1px solid #1f1a24;
   background: #7778bf;
   box-shadow: none;
   color: #e6e6e7!important
@@ -4503,8 +4501,12 @@ button.search {
   white-space: nowrap
 }
 .appimg {
+  filter: hue-rotate(100deg) brightness(95%) saturate(3000%);
   height: 32px;
   padding: 0 0 6px
+}
+.plugin {
+  filter: none
 }
 .app img {
   height: 32px;
@@ -4549,7 +4551,7 @@ div.app:hover.app img {
   width: 136px;
   min-width: 72px;
   border-radius: 0 0 2px 2px;
-  border-top: 1px solid #7778bf;
+  border-top: 1px solid #1f1a24;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -4574,7 +4576,7 @@ div.app:hover.app img {
   outline: 0
 }
 div.app:hover .applabel {
-  border-top: 1px solid #da736b!important;
+  border-top: 1px solid #7778bf!important;
   background: #7778bf;
   color: #e6e6e7
 }
@@ -6461,9 +6463,9 @@ b.netdb_transport {
     min-width: 138px
   }
   .appimg {
+    filter: hue-rotate(100deg) brightness(95%) saturate(3000%);
     height: 35px;
-    padding: 5px 0 8px;
-    filter: hue-rotate(50deg) brightness(85%) saturate(10000%)
+    padding: 5px 0 8px
   }
   .plugin {
     filter: none

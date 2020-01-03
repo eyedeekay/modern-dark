@@ -660,7 +660,7 @@ select {
   letter-spacing: 0.08em;
   word-spacing: 0.1em;
   text-align: center;
-  background: url(../../../../..themes/susimail/dark/images/mail.png) 8px center no-repeat,#1f1a24;
+  background: url(images/mail.png) 8px center no-repeat,#1f1a24;
   text-shadow: 0 1px 1px #000
 }
 #dologin table {
@@ -706,7 +706,8 @@ select {
   border: 1px solid #010;
   border-radius: 25px;
   background: #1f1a24;
-  box-shadow: 0 0 1px transparent
+  box-shadow: 0 0 1px transparent;
+  padding-left: 30px!important
 }
 #dologin tr:last-child a:hover {
   background: #332940;
@@ -893,75 +894,75 @@ div#prefsave {
   border: none
 }
 #pagenav input.firstpage {
-  background: url(../../../../..themes/susimail/dark/images/first.png) center center no-repeat #000!important;
+  background: url(images/first.png) center center no-repeat #000!important;
   background-size: 12px 12px!important
 }
 #pagenav input.firstpage:focus,
 #pagenav input.firstpage:hover {
-  background: url(../../../../..themes/susimail/dark/images/first_hover.png) center center no-repeat #000!important;
+  background: url(images/first_hover.png) center center no-repeat #000!important;
   background-size: 12px 12px!important;
   border: 1px solid #f60
 }
 #pagenav input.firstpage:active {
-  background: url(../../../../..themes/susimail/dark/images/first_active.png) center center no-repeat #f60!important;
+  background: url(images/first_active.png) center center no-repeat #f60!important;
   background-size: 12px 12px!important
 }
 #pagenav input[name="firstpage"]:disabled {
-  background: url(../../../../..themes/susimail/dark/images/first_disabled.png) center center no-repeat #000!important;
+  background: url(images/first_disabled.png) center center no-repeat #000!important;
   background-size: 12px 12px!important
 }
 #pagenav input.prevpage {
-  background: url(../../../../..themes/susimail/dark/images/previous.png) center center no-repeat #000!important;
+  background: url(images/previous.png) center center no-repeat #000!important;
   background-size: 12px 12px!important
 }
 #pagenav input.prevpage:focus,
 #pagenav input.prevpage:hover {
-  background: url(../../../../..themes/susimail/dark/images/previous_hover.png) center center no-repeat #000!important;
+  background: url(images/previous_hover.png) center center no-repeat #000!important;
   background-size: 12px 12px!important;
   border: 1px solid #f60
 }
 #pagenav input.prevpage:active {
-  background: url(../../../../..themes/susimail/dark/images/previous_active.png) center center no-repeat #f60!important;
+  background: url(images/previous_active.png) center center no-repeat #f60!important;
   background-size: 12px 12px!important
 }
 #pagenav input[name="prevpage"]:disabled {
-  background: url(../../../../..themes/susimail/dark/images/previous_disabled.png) center center no-repeat #000!important;
+  background: url(images/previous_disabled.png) center center no-repeat #000!important;
   background-size: 12px 12px!important
 }
 #pagenav input.nextpage {
-  background: url(../../../../..themes/susimail/dark/images/next.png) center center no-repeat #000!important;
+  background: url(images/next.png) center center no-repeat #000!important;
   background-size: 12px 12px!important
 }
 #pagenav input.nextpage:focus,
 #pagenav input.nextpage:hover {
-  background: url(../../../../..themes/susimail/dark/images/next_hover.png) center center no-repeat #000!important;
+  background: url(images/next_hover.png) center center no-repeat #000!important;
   background-size: 12px 12px!important;
   border: 1px solid #f60
 }
 #pagenav input.nextpage:active {
-  background: url(../../../../..themes/susimail/dark/images/next_active.png) center center no-repeat #f60!important;
+  background: url(images/next_active.png) center center no-repeat #f60!important;
   background-size: 12px 12px!important
 }
 #pagenav input[name="nextpage"]:disabled {
-  background: url(../../../../..themes/susimail/dark/images/next_disabled.png) center center no-repeat #000!important;
+  background: url(images/next_disabled.png) center center no-repeat #000!important;
   background-size: 12px 12px!important
 }
 #pagenav input.lastpage {
-  background: url(../../../../..themes/susimail/dark/images/last.png) center center no-repeat #000!important;
+  background: url(images/last.png) center center no-repeat #000!important;
   background-size: 12px 12px!important
 }
 #pagenav input.lastpage:focus,
 #pagenav input.lastpage:hover {
-  background: url(../../../../..themes/susimail/dark/images/last_hover.png) center center no-repeat #000!important;
+  background: url(images/last_hover.png) center center no-repeat #000!important;
   background-size: 12px 12px!important;
   border: 1px solid #f60
 }
 #pagenav input.lastpage:active {
-  background: url(../../../../..themes/susimail/dark/images/last_active.png) center center no-repeat #f60!important;
+  background: url(images/last_active.png) center center no-repeat #f60!important;
   background-size: 12px 12px!important
 }
 #pagenav input[name="lastpage"]:disabled {
-  background: url(../../../../..themes/susimail/dark/images/last_disabled.png) center center no-repeat #000!important;
+  background: url(images/last_disabled.png) center center no-repeat #000!important;
   background-size: 12px 12px!important
 }
 input.switchto {
@@ -974,6 +975,26 @@ input.switchto:hover {
   background: url(/themes/susimail/images/folder-open.png) center center no-repeat #000!important;
   background-size: 12px 12px!important;
   border: 1px solid #f60
+}
+input.login {
+  background: url(images/login.png) 8px center no-repeat,#1f1a24!important;
+  padding-left: 18px!important
+}
+input.offline {
+  background: url(images/offline.png) 8px center no-repeat,#1f1a24!important;
+  padding-left: 30px!important
+}
+input.configure {
+  background: url(images/settings.png) 8px center no-repeat,#1f1a24!important;
+  padding-left: 30px!important
+}
+a.mailhelp {
+  background: url(images/help.png) 8px center no-repeat,#1f1a24!important;
+  padding-left: 30px!important
+}
+a.mailcreate {
+  background: url(images/account.png) 8px center no-repeat,#1f1a24!important;
+  padding-left: 30px!important
 }
 select {
   margin: 11px 3px 3px 5px

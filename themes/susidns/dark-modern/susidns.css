@@ -613,7 +613,7 @@ div#book {
 }
 #book th:last-child {
   background: #1f1a24;
-  background: url(../../../../..themes/susidns/dark/images/bin.png) center center no-repeat #1f1a24!important
+  background: url(images/bin.png) center center no-repeat #1f1a24!important
 }
 #book table td {
   border-bottom: 1px solid #121;

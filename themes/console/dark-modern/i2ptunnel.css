@@ -431,7 +431,7 @@ input[type="checkbox"]:hover,
 input[type="radio"]:focus,
 input[type="radio"]:hover {
   outline: 0;
-  filter: invert(100%) sepia(100%) hue-rotate(70deg) saturate(200%) drop-shadow(0 0 3px #da736b)
+  filter: invert(100%) sepia(100%)
 }
 label {
   cursor: pointer

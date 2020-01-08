@@ -46,6 +46,24 @@ feh:
 
 add-images:
 	cp ../themes/susimail/dark/images/login.png \
+		../themes/susimail/dark-modern/images
+	cp ../themes/susimail/dark/images/offline.png \
+		../themes/susimail/dark-modern/images
+	cp ../themes/susimail/dark/images/settings.png \
+		../themes/susimail/dark-modern/images
+	cp ../themes/susimail/dark/images/help.png \
+		../themes/susimail/dark-modern/images
+	cp ../themes/susimail/dark/images/account.png \
+		../themes/susimail/dark-modern/images
+	cp ../themes/susimail/dark/images/edit.png \
+		../themes/susimail/dark-modern/images
+	cp ../themes/susimail/dark/images/refresh.png \
+		../themes/susimail/dark-modern/images
+	cp ../themes/susimail/dark/images/logout.png \
+		../themes/susimail/dark-modern/images
+	cp ../themes/susimail/dark/images/folder.png \
+		../themes/susimail/dark-modern/images
+	cp ../themes/susimail/dark/images/login.png \
 		$(HOME)/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/themes/susimail/dark/images
 	cp ../themes/susimail/dark/images/offline.png \
 		$(HOME)/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/themes/susimail/dark/images

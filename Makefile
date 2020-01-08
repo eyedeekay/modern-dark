@@ -24,6 +24,22 @@ images:
 	inkscape -z -e ../themes/susimail/dark/images/settings.png -w 16 -h 16 settings.svg
 	inkscape -z -e ../themes/susimail/dark/images/help.png -w 16 -h 16 help-circle.svg
 	inkscape -z -e ../themes/susimail/dark/images/account.png -w 16 -h 16 book-open.svg
+	inkscape -z -e ../themes/susimail/dark/images/edit.png -w 16 -h 16 edit.svg
+	inkscape -z -e ../themes/susimail/dark/images/refresh.png -w 16 -h 16 refresh.svg
+	inkscape -z -e ../themes/susimail/dark/images/logout.png -w 16 -h 16 log-out.svg
+	inkscape -z -e ../themes/susimail/dark/images/folder.png -w 16 -h 16 folder.svg
+	inkscape -z -e ../themes/susimail/light/images/login.png -w 16 -h 16 key.svg
+	inkscape -z -e ../themes/susimail/light/images/offline.png -w 16 -h 16 briefcase.svg
+	inkscape -z -e ../themes/susimail/light/images/settings.png -w 16 -h 16 settings.svg
+	inkscape -z -e ../themes/susimail/light/images/help.png -w 16 -h 16 help-circle.svg
+	inkscape -z -e ../themes/susimail/light/images/account.png -w 16 -h 16 book-open.svg
+	inkscape -z -e ../themes/susimail/light/images/edit.png -w 16 -h 16 edit.svg
+	inkscape -z -e ../themes/susimail/light/images/refresh.png -w 16 -h 16 refresh.svg
+	inkscape -z -e ../themes/susimail/light/images/logout.png -w 16 -h 16 log-out.svg
+	inkscape -z -e ../themes/susimail/light/images/folder.png -w 16 -h 16 folder.svg
+
+feh:
+	feh ../themes/susimail/light/images/refresh.png
 
 add-images:
 	cp ../themes/susimail/dark/images/login.png \
@@ -36,6 +52,14 @@ add-images:
 		$(HOME)/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/themes/susimail/dark/images
 	cp ../themes/susimail/dark/images/account.png \
 		$(HOME)/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/themes/susimail/dark/images
+	cp ../themes/susimail/dark/images/edit.png \
+		$(HOME)/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/themes/susimail/dark/images
+	cp ../themes/susimail/dark/images/refresh.png \
+		$(HOME)/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/themes/susimail/dark/images
+	cp ../themes/susimail/dark/images/logout.png \
+		$(HOME)/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/themes/susimail/dark/images
+	cp ../themes/susimail/dark/images/folder.png \
+		$(HOME)/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/themes/susimail/dark/images
 	cp ../themes/susimail/dark/images/login.png \
 		$(HOME)/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/themes/susimail/light/images
 	cp ../themes/susimail/dark/images/offline.png \
@@ -45,6 +69,14 @@ add-images:
 	cp ../themes/susimail/dark/images/help.png \
 		$(HOME)/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/themes/susimail/light/images
 	cp ../themes/susimail/dark/images/account.png \
+		$(HOME)/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/themes/susimail/light/images
+	cp ../themes/susimail/dark/images/edit.png \
+		$(HOME)/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/themes/susimail/light/images
+	cp ../themes/susimail/dark/images/refresh.png \
+		$(HOME)/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/themes/susimail/light/images
+	cp ../themes/susimail/dark/images/logout.png \
+		$(HOME)/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/themes/susimail/light/images
+	cp ../themes/susimail/dark/images/folder.png \
 		$(HOME)/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/themes/susimail/light/images
 
 
@@ -176,6 +208,14 @@ diff-susimail:
 	sleep 1
 	cd $(HOME)/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/themes/susimail/dark/ && \
 	patch -R susimail.css susimailcss.diff
+
+diff-susimail-light:
+	cp $(HOME)/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/themes/susimail/light/susimail.css $(I2PTHEMES)/susimail/light/susimail.old.css
+	cd $(I2PTHEMES)/susimail/light/ && \
+	diff susimail.css \
+		susimail.old.css | tee \
+		$(HOME)/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/themes/susimail/light/susimailcss.diff
+	sleep 1
 
 patch: diff-console diff-tunnel diff-snark diff-susidns diff-susimail
 	cd $(HOME)/Workspace/desktop-Workspace/mtn/i2p.i2p/ &&

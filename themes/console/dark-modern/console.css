@@ -3981,7 +3981,6 @@ table[id$="logs"] ul {
   width: 99%;
   width: calc(100% - 5px);
   resize: none;
-  max-height: 600px;
   padding: 0 0 0 5px!important
 }
 .logtable ul li {
@@ -6774,7 +6773,6 @@ th.options {
   background: #030
 }
 #wrapperlogs pre {
-  height: 300px;
   resize: vertical
 }
 #graphs td:first-child {

@@ -38,6 +38,9 @@ images:
 	inkscape -z -e ../themes/susimail/light/images/logout.png -w 16 -h 16 log-out.svg
 	inkscape -z -e ../themes/susimail/light/images/folder.png -w 16 -h 16 folder.svg
 
+img:
+	cp ../themes/susimail/dark/images/*.png ../themes/susimail/dark-modern/images/
+
 feh:
 	feh ../themes/susimail/light/images/refresh.png
 
@@ -152,6 +155,12 @@ osx-install:
 	cp -r themes/snark/dark-modern $(MACI2PTHEMES)/snark/dark-modern
 	cp -r themes/susidns/dark-modern $(MACI2PTHEMES)/susidns/dark-modern
 	cp -r themes/susimail/dark-modern $(MACI2PTHEMES)/susimail/dark-modern
+
+debian-remove:
+	rm -rf $(DEBI2PTHEMES)/console/dark-modern/ \
+		$(DEBI2PTHEMES)/snark/dark-modern/ \
+		$(DEBI2PTHEMES)/susidns/dark-modern/ \
+		$(DEBI2PTHEMES)/susimail/dark-modern/
 
 remove:
 	find $(I2PTHEMES) -name dark-modern -exec rm -rf {} \; ;true

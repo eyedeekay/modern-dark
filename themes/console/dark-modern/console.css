@@ -412,7 +412,7 @@ div.warning {
 #sb_warning {
   padding: 4px 4px 4px 26px;
   background: #000;
-  background: url(images/warning24x24.png) 4px center no-repeat,linear-gradient(to right, #001900, #001000 5%, #000 25%, #000 50%, #000 75%, #001000 95%, #001900);
+  background: url(images/warning24x24.png) 4px center no-repeat;
   background-size: 22px 22px,100% 100%;
   text-align: center;
   line-height: 120%
@@ -1755,7 +1755,6 @@ input:active {
 input[type="password"],
 input[type="text"] {
   background: #000;
-  background: linear-gradient(to bottom, #000 0, #010 100%);
   color: #e6e6e7;
   margin: 5px 10px;
   padding: 5px;
@@ -2854,7 +2853,6 @@ table#consolepass input[type="password"] {
 #consolepass input[name="name"],
 #externali2cp input[name="user"] {
   background: url(/themes/console/images/buttons/user.png) 5px center no-repeat #000;
-  background: url(/themes/console/images/buttons/user.png) 5px center no-repeat,linear-gradient(to bottom, #000 0, #010 100%);
   padding: 4px 5px 4px 26px!important;
   background-size: 16px 16px,100% 100%!important
 }
@@ -2865,7 +2863,6 @@ table#consolepass input[type="password"] {
 #consolepass input[name="nofilter_pw"],
 #externali2cp input[name="nofilter_pw"] {
   background: url(/themes/console/images/buttons/password.png) 3px center no-repeat #000;
-  background: url(/themes/console/images/buttons/password.png) 3px center no-repeat,linear-gradient(to bottom, #000 0, #010 100%);
   padding: 4px 5px 4px 22px!important;
   background-size: 16px 16px,100% 100%!important
 }
@@ -3932,7 +3929,7 @@ img.unknownflag {
   cursor: text
 }
 #enviro:hover td {
-  background: #010;
+  background: #332940;
   border-top: 1px inset transparent;
   border-bottom: 1px inset transparent;
   color: #ff0
@@ -3957,9 +3954,6 @@ img.unknownflag {
 }
 table#criticallogs tr:first-child {
   display: none
-}
-table[id$="logs"] tr:nth-child(odd) {
-  background: #010
 }
 table[id$="logs"] tr:nth-child(even) {
   background: #000

@@ -90,7 +90,7 @@ p.info {
 }
 p.error {
   color: red;
-  background: url(/themes/console/images/info/errortriangle.png) 10px center no-repeat #000;
+  background: url(/themes/console/images/info/errortriangle.png) 10px center no-repeat;
   border: 1px solid red;
   border-radius: 2px;
   font-weight: bold;

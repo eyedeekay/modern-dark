@@ -2,6 +2,7 @@
 I2PTHEMES=`find $(HOME) -maxdepth 1 -name 'i2p' -exec echo {}/docs/themes \;`
 DEBI2PTHEMES=`find /usr/share/ -maxdepth 1 -name 'i2p' -exec echo {}/docs/themes \;`
 MACI2PTHEMES="/Applications/i2p/docs/themes"
+GITSRC=$(HOME)/Workspace/i2pgit/i2p.i2p/installer/resources/themes
 CLEANCSS_OPTS=-O1 all -O2 all
 
 find:
@@ -28,6 +29,7 @@ images:
 	inkscape -z -e ../themes/susimail/dark/images/refresh.png -w 16 -h 16 refresh.svg
 	inkscape -z -e ../themes/susimail/dark/images/logout.png -w 16 -h 16 log-out.svg
 	inkscape -z -e ../themes/susimail/dark/images/folder.png -w 16 -h 16 folder.svg
+	inkscape -z -e ../themes/susimail/dark/images/book.png -w 16 -h 16 book.svg
 	inkscape -z -e ../themes/susimail/light/images/login.png -w 16 -h 16 key.svg
 	inkscape -z -e ../themes/susimail/light/images/offline.png -w 16 -h 16 briefcase.svg
 	inkscape -z -e ../themes/susimail/light/images/settings.png -w 16 -h 16 settings.svg
@@ -37,6 +39,7 @@ images:
 	inkscape -z -e ../themes/susimail/light/images/refresh.png -w 16 -h 16 refresh.svg
 	inkscape -z -e ../themes/susimail/light/images/logout.png -w 16 -h 16 log-out.svg
 	inkscape -z -e ../themes/susimail/light/images/folder.png -w 16 -h 16 folder.svg
+	inkscape -z -e ../themes/susimail/light/images/book.png -w 16 -h 16 book.svg
 
 img:
 	cp ../themes/susimail/dark/images/*.png ../themes/susimail/dark-modern/images/
@@ -63,6 +66,8 @@ add-images:
 		../themes/susimail/dark-modern/images
 	cp ../themes/susimail/dark/images/folder.png \
 		../themes/susimail/dark-modern/images
+	cp ../themes/susimail/dark/images/book.png \
+		../themes/susimail/dark-modern/images
 	cp ../themes/susimail/dark/images/login.png \
 		$(HOME)/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/themes/susimail/dark/images
 	cp ../themes/susimail/dark/images/offline.png \
@@ -81,6 +86,8 @@ add-images:
 		$(HOME)/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/themes/susimail/dark/images
 	cp ../themes/susimail/dark/images/folder.png \
 		$(HOME)/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/themes/susimail/dark/images
+	cp ../themes/susimail/dark/images/book.png \
+		$(HOME)/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/themes/susimail/dark/images
 	cp ../themes/susimail/dark/images/login.png \
 		$(HOME)/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/themes/susimail/light/images
 	cp ../themes/susimail/dark/images/offline.png \
@@ -96,6 +103,8 @@ add-images:
 	cp ../themes/susimail/dark/images/refresh.png \
 		$(HOME)/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/themes/susimail/light/images
 	cp ../themes/susimail/dark/images/logout.png \
+		$(HOME)/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/themes/susimail/light/images
+	cp ../themes/susimail/dark/images/folder.png \
 		$(HOME)/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/themes/susimail/light/images
 	cp ../themes/susimail/dark/images/folder.png \
 		$(HOME)/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/themes/susimail/light/images
@@ -174,6 +183,12 @@ osx-install:
 	cp -r themes/susidns/dark-modern $(MACI2PTHEMES)/susidns/dark-modern
 	cp -r themes/susimail/dark-modern $(MACI2PTHEMES)/susimail/dark-modern
 
+addtogit:
+	cp -r themes/console/dark-modern $(GITSRC)/console/dark-modern
+	cp -r themes/snark/dark-modern $(GITSRC)/snark/dark-modern
+	cp -r themes/susidns/dark-modern $(GITSRC)/susidns/dark-modern
+	cp -r themes/susimail/dark-modern $(GITSRC)/susimail/dark-modern
+
 debian-remove:
 	rm -rf $(DEBI2PTHEMES)/console/dark-modern/ \
 		$(DEBI2PTHEMES)/snark/dark-modern/ \
@@ -243,6 +258,8 @@ diff-susimail-light:
 		susimail.old.css | tee \
 		$(HOME)/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/themes/susimail/light/susimailcss.diff
 	sleep 1
+	cd $(HOME)/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/themes/susimail/light/ && \
+	patch -R susimail.css susimailcss.diff
 
 patch: diff-console diff-tunnel diff-snark diff-susidns diff-susimail
 	cd $(HOME)/Workspace/desktop-Workspace/mtn/i2p.i2p/ &&

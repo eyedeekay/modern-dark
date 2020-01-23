@@ -48,7 +48,7 @@ hr {
   color: #494;
   background: #494;
   height: 1px;
-  border: 0 solid #494;
+  border: 0 solid #332940;
   width: 100%;
   margin: 5px 0;
   text-align: center
@@ -81,11 +81,10 @@ p.error,
 p.info {
   color: #ee9;
   display: block!important;
-  border: 1px solid #494;
+  border: 1px solid #332940;
   margin: 20px 20px 0!important;
   padding: 15px 10px 15px 45px;
-  background: url(/themes/console/dark/images/infohelp.png) 10px center no-repeat #000;
-  background: url(/themes/console/dark/images/infohelp.png) 10px center no-repeat,linear-gradient(to right, #000 0, #001500 65%, #001800 90%);
+  background: url(/themes/console/dark/images/infohelp.png) 10px center no-repeat #1f1a24;
   text-align: left;
   border-radius: 2px
 }
@@ -127,7 +126,7 @@ div.topbuttons {
   margin-bottom: -4px;
   margin-top: -1px;
   margin: -1px -1px -4px;
-  border-bottom: 1px solid #494
+  border-bottom: 1px solid #332940
 }
 .iframed .topbuttons {
   margin-top: -1px;
@@ -191,7 +190,7 @@ table#mailbox {
 }
 table#mailbox td[colspan="4"],
 table#mailbox td[colspan="5"] {
-  border-top: 1px solid #494!important;
+  border-top: 1px solid #332940!important;
   padding: 6px 0 2px!important
 }
 table#mailbox td[colspan="5"] {
@@ -228,9 +227,6 @@ table#mailbox tr[class^="list"]:hover {
 #mailbox td#subject {
   max-height: 40px;
   overflow: hidden
-}
-#message_full td {
-  background: #000
 }
 input.optbox {
   opacity: 0.8;
@@ -281,10 +277,10 @@ td {
   padding: 2px
 }
 tr.list0 {
-  background-color: #000800
+  background-color: #1f1a24
 }
 tr.list1 {
-  background-color: #010
+  background-color: #1f1a24
 }
 tr.list0 td,
 tr.list1 td {
@@ -299,8 +295,8 @@ tr.list0:hover,
 tr.list0:hover a,
 tr.list1:hover,
 tr.list1:hover a {
-  background: #002000;
-  color: #f60
+  background: #332940;
+  color: #e6e6e7
 }
 #mailbox td:nth-child(3) a:focus,
 #mailbox td:nth-child(3) a:focus,
@@ -380,8 +376,7 @@ table.noborder {
   margin-right: 0
 }
 td:first-child {
-  font-weight: bold;
-  background: #332940
+  font-weight: bold
 }
 pre {
   font: 9pt "Noto Mono","Droid Sans Mono","Andale Mono","DejaVu Sans Mono","Lucida Console",monospace;
@@ -409,8 +404,8 @@ th {
   background: url(images/header.png) center center #000;
   background: linear-gradient(to bottom, #1a261a 0, #223022 7%, #212f21 9%, #172317 21%, #091109 49%, #050d05 50%, #020602 51%, #010301 53%, #000 56%, #000 100%)!important;
   padding: 7px;
-  border-bottom: 1px solid #494;
-  border-top: 1px solid #494
+  border-bottom: 1px solid #332940;
+  border-top: 1px solid #332940
 }
 form {
   line-height: 160%;
@@ -427,7 +422,6 @@ form table {
 textarea {
   background: #000;
   color: #ee9;
-  border: 1px solid #494;
   border-radius: 2px;
   padding: 5px
 }
@@ -446,14 +440,11 @@ td#attachedfile {
 table#mailhead {
   font-size: 9pt;
   font-weight: bold;
-  border-bottom: 1px solid #494;
-  border-top: 1px solid #494;
-  background: #010;
   width: 100%;
-  background: #010
+  background: #332940
 }
 #mailhead td {
-  background: #010
+  background: #1f1a24
 }
 #mailhead td:first-child {
   width: 50px;
@@ -488,7 +479,7 @@ input {
   text-align: left;
   padding: 2px 2px 3px!important;
   border-radius: 2px;
-  border: 1px solid #494;
+  border: 1px solid #332940;
   color: #494;
   margin: 3px;
   font: bold 9pt "Droid Sans","Noto Sans",Ubuntu,"Bitstream Vera Sans","Lucida Grande","DejaVu Sans",Lato,"Segoe UI",Verdana,Helvetica,sans-serif;
@@ -587,8 +578,7 @@ textarea {
   background: #000;
   cursor: text;
   padding: 4px!important;
-  border: 1px solid #363;
-  background: linear-gradient(to bottom, #000 0, #010 100%)!important;
+  border: 1px solid #332940;
   box-shadow: inset 0 0 3px 3px #000;
   font-size: 9pt
 }
@@ -635,7 +625,9 @@ select {
 }
 .notifications {
   text-align: center;
-  padding: 0 0 20px
+  padding: 0 0 20px;
+  position: absolute;
+  bottom: -2.5%
 }
 #dologin {
   margin: 20px auto;
@@ -739,7 +731,7 @@ div#composemail {
   padding: 2px 5px
 }
 h3#config {
-  border: 1px solid #494;
+  border: 1px solid #332940;
   padding: 5px;
   margin: 3px auto 18px;
   width: 400px;
@@ -769,11 +761,8 @@ p.mailbody {
 tr.mailbody:nth-child(n+3),
 tr.mailbody:nth-child(n+3) td {
   background: #010;
-  border-top: 1px solid #494;
+  border-top: 1px solid #332940;
   padding: 5px
-}
-tr.mailbody:last-child td {
-  border-bottom: 1px solid #494
 }
 div.attached {
   margin: 0 -1px -1px;
@@ -782,7 +771,7 @@ div.attached {
   background: url(/themes/susimail/images/attach.png) 10px center no-repeat
 }
 .attached img {
-  border: 1px solid #494;
+  border: 1px solid #332940;
   border-radius: 2px;
   padding: 2px;
   background: #010;
@@ -850,13 +839,13 @@ table#pagenav td:last-child {
 }
 div#prefsave {
   margin: 20px 0 0;
-  border-top: 1px solid #494;
+  border-top: 1px solid #332940;
   padding: 10px 0
 }
 .iframed #prefsave {
   margin-bottom: 0;
   padding-top: 15px;
-  border-bottom: 1px solid #494
+  border-bottom: 1px solid #332940
 }
 #prefsave input[type="submit"] {
   min-width: 124px!important
@@ -867,10 +856,10 @@ div#prefsave {
   }
   div#prefsave {
     padding-bottom: 5px;
-    border-bottom: 1px solid #494
+    border-bottom: 1px solid #332940
   }
   .iframed .page {
-    border-bottom: 1px solid #494
+    border-bottom: 1px solid #332940
   }
 }
 #pagenav input:disabled,

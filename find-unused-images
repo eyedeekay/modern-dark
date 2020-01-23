@@ -1,0 +1,18 @@
+#! /usr/bin/env sh
+
+rm -f .used.log .total.log
+rm -f used.log total.log
+
+for x in $(find "$HOME/Workspace/desktop-Workspace/mtn/i2p.i2p/" -name '*.png'); do
+    name=$(basename $x)
+    echo "Searching for uses of $name in i2p.i2p"
+    for y in $(find "$HOME/Workspace/desktop-Workspace/mtn/i2p.i2p/" -type f); do
+        grep -Hn "$name" "$y" && echo "$x" >> .used.log && break
+    done
+    echo "$x" >> .total.log
+done
+
+sort .total.log | tee total.log
+sort .used.log | tee used.log
+
+diff used.log total.log

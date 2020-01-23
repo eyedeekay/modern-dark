@@ -1206,7 +1206,7 @@ a img:hover,
 a:focus img,
 input[type="image"]:focus,
 input[type="image"]:hover {
-  filter: saturate(200%) drop-shadow(0 0 2px #f30)!important;
+  filter: saturate(200%) drop-shadow(0 0 2px #f30) hue-rotate(120deg)!important;
   outline: 0
 }
 thead a:active img {
@@ -2840,7 +2840,8 @@ _:-ms-lang(x),
   border: 2px solid #000;
   border-radius: 50%;
   background: #000;
-  background: linear-gradient(to bottom, #000 50%, #1f1a24 50%)
+  background: linear-gradient(to bottom, #000 50%, #1f1a24 50%);
+  filter: hue-rotate(120deg)
 }
 .configsection .snarkConfigTitle a img {
   margin-bottom: -23px!important

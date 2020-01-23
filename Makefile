@@ -266,3 +266,6 @@ patch: diff-console diff-tunnel diff-snark diff-susidns diff-susimail
 		mtn diff | tee darktheme.diff
 
 checkin: patch
+
+diff:
+	diff .total.log .used.log > unused_images.diff

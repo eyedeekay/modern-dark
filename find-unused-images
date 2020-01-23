@@ -10,9 +10,10 @@ for x in $(find "$HOME/Workspace/desktop-Workspace/mtn/i2p.i2p/" -name '*.png');
         grep -Hn "$name" "$y" && echo "$x" >> .used.log && break
     done
     echo "$x" >> .total.log
+    diff .used.log .total.log > unused_images.diff
 done
 
 sort .total.log | tee total.log
 sort .used.log | tee used.log
 
-diff used.log total.log
+diff used.log total.log > unused_images.diff

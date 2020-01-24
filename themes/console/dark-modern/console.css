@@ -6524,7 +6524,7 @@ b.netdb_transport {
   .routersummary img[src$="i2plogo.png"] {
     margin-left: -8px;
     transform: none;
-    width: 225px;
+    width: 150px;
     margin-top: -6px
   }
   .routersummary h3::after {

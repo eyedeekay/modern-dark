@@ -1,0 +1,380 @@
+23d22
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/themes/snark/ubergine/images/snarknav_lowlight.png
+26,28d24
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/themes/snark/ubergine/images/complete.png
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/themes/snark/ubergine/images/hidepeers.png
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/themes/snark/ubergine/images/cross.png
+30d25
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/themes/snark/ubergine/images/downloading.png
+38d32
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/themes/snark/ubergine/images/config.png
+41d34
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/themes/snark/ubergine/images/head_rx.png
+43d35
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/themes/snark/ubergine/images/stalled.png
+51,52d42
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/themes/snark/ubergine/images/head_rxspeed.png
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/themes/snark/ubergine/images/rateme.png
+56d45
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/themes/snark/ubergine/images/head_tx.png
+62d50
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/themes/snark/ubergine/images/seeding.png
+65d52
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/themes/snark/ubergine/images/size.png
+75d61
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/themes/snark/ubergine/images/showpeers.png
+83,84d68
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/themes/snark/ubergine/images/head_txspeed.png
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/themes/snark/ubergine/images/nopeers.png
+87d70
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/themes/snark/ubergine/images/eta.png
+94d76
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/themes/snark/light/images/complete.png
+96d77
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/themes/snark/light/images/hidepeers.png
+98d78
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/themes/snark/light/images/downloading.png
+102d81
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/themes/snark/light/images/config.png
+104d82
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/themes/snark/light/images/head_rx.png
+106,107d83
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/themes/snark/light/images/remove_hover.png
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/themes/snark/light/images/stalled.png
+114,115d89
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/themes/snark/light/images/head_rxspeed.png
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/themes/snark/light/images/rateme.png
+120d93
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/themes/snark/light/images/head_tx.png
+124d96
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/themes/snark/light/images/seeding.png
+127d98
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/themes/snark/light/images/size.png
+138d108
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/themes/snark/light/images/showpeers.png
+145,147d114
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/themes/snark/light/images/head_txspeed.png
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/themes/snark/light/images/nopeers.png
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/themes/snark/light/images/stop_all_hover.png
+149,150d115
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/themes/snark/light/images/start_all_hover.png
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/themes/snark/light/images/stop_hover.png
+152d116
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/themes/snark/light/images/eta.png
+155d118
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/themes/snark/vanilla/images/noseeds.png
+159,160d121
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/themes/snark/vanilla/images/complete.png
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/themes/snark/vanilla/images/hidepeers.png
+162,163d122
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/themes/snark/vanilla/images/torrent0.png
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/themes/snark/vanilla/images/downloading.png
+169d127
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/themes/snark/vanilla/images/config.png
+172d129
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/themes/snark/vanilla/images/head_rx.png
+174d130
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/themes/snark/vanilla/images/stalled.png
+181,182d136
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/themes/snark/vanilla/images/head_rxspeed.png
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/themes/snark/vanilla/images/rateme.png
+186d139
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/themes/snark/vanilla/images/head_tx.png
+192d144
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/themes/snark/vanilla/images/seeding.png
+195d146
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/themes/snark/vanilla/images/size.png
+205d155
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/themes/snark/vanilla/images/showpeers.png
+212,213d161
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/themes/snark/vanilla/images/head_txspeed.png
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/themes/snark/vanilla/images/nopeers.png
+216d163
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/themes/snark/vanilla/images/eta.png
+221,222d167
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/themes/snark/dark/images/complete.png
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/themes/snark/dark/images/hidepeers.png
+224d168
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/themes/snark/dark/images/downloading.png
+228d171
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/themes/snark/dark/images/config.png
+230d172
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/themes/snark/dark/images/head_rx.png
+232d173
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/themes/snark/dark/images/stalled.png
+236d176
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/themes/snark/dark/images/create0.png
+240,242d179
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/themes/snark/dark/images/head_rxspeed.png
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/themes/snark/dark/images/dropdown_active.png
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/themes/snark/dark/images/rateme.png
+246d182
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/themes/snark/dark/images/head_tx.png
+251d186
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/themes/snark/dark/images/seeding.png
+253d187
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/themes/snark/dark/images/size.png
+264d197
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/themes/snark/dark/images/showpeers.png
+271,272d203
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/themes/snark/dark/images/head_txspeed.png
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/themes/snark/dark/images/nopeers.png
+275d205
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/themes/snark/dark/images/eta.png
+366d295
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/themes/console/images/buttons/create-file_.png
+398d326
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/themes/console/images/info/blocked_.png
+452d379
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/themes/console/images/action_log.png
+454d380
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/themes/console/images/toolbox.png
+463d388
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/themes/console/images/wrench_orange.png
+474d398
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/themes/console/images/qr.png
+477d400
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/themes/console/images/local_down.png
+502d424
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/themes/console/light/images/noise.png
+530d451
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/themes/console/light/images/application-icon.png
+553,554d473
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/themes/console/dark/images/dropdown_active.png
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/themes/console/dark/images/webserver.png
+559d477
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/themes/console/dark/images/warning_dark.png
+568d485
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/themes/susidns/images/how_fr.png
+573d489
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags16x11/np.png
+575,585d490
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags16x11/bl.png
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags16x11/je.png
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags16x11/cw.png
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags16x11/ap.png
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags16x11/gg.png
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags16x11/bq.png
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags16x11/im.png
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags16x11/a0.png
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags16x11/a2.png
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags16x11/eu.png
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags16x11/sx.png
+588d492
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags16x11/a1.png
+592,594d495
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/ci.png
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/kw.png
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/co.png
+596,599d496
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/pg.png
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/kh.png
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/mx.png
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/ky.png
+602d498
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/tg.png
+604d499
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/cx.png
+607d501
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/ax.png
+609,612d502
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/lv.png
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/qa.png
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/tc.png
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/kg.png
+614,620d503
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/pm.png
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/sl.png
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/tj.png
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/va.png
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/sb.png
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/sd.png
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/fi.png
+623,631d505
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/hn.png
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/sn.png
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/gb.png
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/bm.png
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/gm.png
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/rw.png
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/tz.png
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/tv.png
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/mv.png
+633,634d506
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/tf.png
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/mg.png
+636,640d507
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/bb.png
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/ae.png
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/li.png
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/bo.png
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/jo.png
+647d513
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/za.png
+649,650d514
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/cg.png
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/si.png
+653,655d516
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/nz.png
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/vc.png
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/tk.png
+657d517
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/lc.png
+659d518
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/mc.png
+661,668d519
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/by.png
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/as.png
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/sy.png
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/tm.png
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/ma.png
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/am.png
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/lr.png
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/gi.png
+670,671d520
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/sc.png
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/bz.png
+675,678d523
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/cz.png
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/kr.png
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/iq.png
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/cm.png
+680,681d524
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/do.png
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/pe.png
+683,686d525
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/dk.png
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/bh.png
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/gd.png
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/is.png
+689,690d527
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/bv.png
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/zm.png
+692,703d528
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/ai.png
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/bj.png
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/sz.png
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/bw.png
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/na.png
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/pr.png
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/eg.png
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/cl.png
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/aw.png
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/mt.png
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/ga.png
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/cy.png
+705,707d529
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/cr.png
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/pa.png
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/sv.png
+710d531
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/kz.png
+712,715d532
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/mn.png
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/au.png
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/fj.png
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/fk.png
+718,721d534
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/uz.png
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/ec.png
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/tt.png
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/cc.png
+723,724d535
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/vu.png
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/my.png
+726d536
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/km.png
+728,731d537
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/vi.png
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/sr.png
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/ee.png
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/wf.png
+734,742d539
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/pf.png
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/eh.png
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/tw.png
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/sj.png
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/cv.png
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/sg.png
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/cu.png
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/yt.png
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/mh.png
+744,752d540
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/zw.png
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/gy.png
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/gn.png
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/gw.png
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/td.png
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/bn.png
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/gl.png
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/nf.png
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/mk.png
+754,755d541
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/ms.png
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/mp.png
+757,759d542
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/md.png
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/ki.png
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/bd.png
+762,766d544
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/nc.png
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/ca.png
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/lu.png
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/gp.png
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/kp.png
+770d547
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/gh.png
+772,777d548
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/fm.png
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/mz.png
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/kn.png
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/ba.png
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/jm.png
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/nr.png
+779,783d549
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/mq.png
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/sa.png
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/lb.png
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/mu.png
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/gq.png
+785,789d550
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/pn.png
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/pk.png
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/ua.png
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/gu.png
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/lt.png
+791,796d551
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/bi.png
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/uy.png
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/lk.png
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/dm.png
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/tn.png
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/mw.png
+798d552
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/gr.png
+800,802d553
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/mr.png
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/cf.png
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/dj.png
+805,807d555
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/vg.png
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/pw.png
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/dz.png
+810d557
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/hm.png
+812,815d558
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/ps.png
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/mm.png
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/br.png
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/bt.png
+818,822d560
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/bf.png
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/hk.png
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/gf.png
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/mo.png
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/ao.png
+824,827d561
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/la.png
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/tl.png
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/vn.png
+< /home/idk/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/icons/flags/hr.png

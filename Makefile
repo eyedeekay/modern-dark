@@ -40,6 +40,8 @@ images:
 	inkscape -z -e ../themes/susimail/light/images/logout.png -w 16 -h 16 log-out.svg
 	inkscape -z -e ../themes/susimail/light/images/folder.png -w 16 -h 16 folder.svg
 	inkscape -z -e ../themes/susimail/light/images/book.png -w 16 -h 16 book.svg
+	inkscape -z -e ../themes/console/images/title_window.png -w 36 -h 36 square.svg
+
 
 img:
 	cp ../themes/susimail/dark/images/*.png ../themes/susimail/dark-modern/images/
@@ -68,6 +70,8 @@ add-images:
 		../themes/susimail/dark-modern/images
 	cp ../themes/susimail/dark/images/book.png \
 		../themes/susimail/dark-modern/images
+	cp ../themes/console/images/title_window.png \
+		$(HOME)/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/themes/console/images
 	cp ../themes/susimail/dark/images/login.png \
 		$(HOME)/Workspace/desktop-Workspace/mtn/i2p.i2p/installer/resources/themes/susimail/dark/images
 	cp ../themes/susimail/dark/images/offline.png \
@@ -269,3 +273,19 @@ checkin: patch
 
 diff:
 	diff .total.log .used.log > unused_images.diff
+
+rm:
+	rm ../themes/console/dark/images/warning_dark.png \
+	../themes/console/dark/images/webserver.png \
+	../themes/console/images/action_log.png \
+	../themes/console/images/buttons/create-file_.png \
+	../themes/console/images/info/blocked_.png \
+	../themes/console/images/local_down.png \
+	../themes/console/images/qr.png \
+	../themes/console/images/toolbox.png \
+	../themes/console/images/wrench_orange.png \
+	../themes/console/light/images/application-icon.png \
+	../themes/console/light/images/noise.png \
+	../themes/snark/ubergine/images/cross.png \
+	../themes/snark/vanilla/images/noseeds.png \
+	../themes/susidns/images/how_fr.png

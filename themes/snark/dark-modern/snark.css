@@ -331,7 +331,7 @@ tfoot th {
   text-align: left
 }
 .ParentDir {
-  background: #000;
+  background: #1f1a24;
   font-size: 8pt;
   border: 1px solid #050!important;
   border-left: 0!important;
@@ -802,7 +802,7 @@ _:-ms-lang(x),
 }
 .snarkTorrentOdd,
 .snarkTorrentOdd:nth-child(odd) {
-  background: #000800!important
+  background: #1f1a24!important
 }
 .snarkTorrentOdd:nth-child(even) {
   background: #332940!important
@@ -1058,8 +1058,6 @@ input.toggle_input:focus + .toggleview {
   margin: -1px -1px -14px!important;
   display: block;
   text-align: left;
-  background: center center repeat-x #000!important;
-  background: linear-gradient(to bottom, #1a261a 0, #223022 7%, #212f21 9%, #172317 21%, #091109 49%, #050d05 50%, #020602 51%, #010301 53%, #000 56%, #000 100%)!important;
   border-top: 1px solid #433e47;
   padding: 8px;
   text-transform: uppercase;
@@ -1350,12 +1348,11 @@ input[size="85"] {
   margin-left: 5px!important
 }
 select {
-  background: url(images/dropdown.png) right center no-repeat #000!important;
-  background: url(images/dropdown.png) right center no-repeat,linear-gradient(to bottom, #020 0, #000 20%, #000 80%, #010 100%)!important;
+  background: url(images/dropdown.png) right center no-repeat #332940!important;
   -moz-appearance: none;
   -webkit-appearance: none;
   appearance: none;
-  color: #433e47;
+  color: #e6e6e7;
   font-size: 8pt;
   font-weight: bold;
   padding: 4px 16px 4px 4px;
@@ -1567,7 +1564,7 @@ _:-ms-lang(x),
   padding-bottom: 7px
 }
 .trackerconfig th:first-child {
-  background: url(images/delete.png) center right 8px no-repeat,linear-gradient(to bottom, #010, #000)
+  background: url(images/delete.png) center right 8px no-repeat,#1f1a24
 }
 .addtorrentsection tr:first-child td,
 .trackerselect tr:first-child td {
@@ -1579,7 +1576,7 @@ _:-ms-lang(x),
 }
 .snarkConfig tr:nth-child(odd),
 .trackerconfig tr:nth-child(odd) {
-  background: #000900
+  background: #1f1a24
 }
 .trackerconfig tr:last-child {
   border: 1px solid #433e47;
@@ -1606,7 +1603,7 @@ _:-ms-lang(x),
 }
 .snarkConfig tr:nth-child(even),
 .trackerconfig tr:nth-child(even) {
-  background: #010
+  background: #332940
 }
 .trackerconfig input {
   margin: 3px 0!important
@@ -2883,7 +2880,7 @@ _:-ms-lang(x),
   text-overflow: ellipsis;
   color: #bbf;
   box-shadow: 0 0 0 1px #121;
-  background: url(images/button_tracker.png) left 3px center no-repeat #010;
+  background: url(images/button_tracker.png) left 3px center no-repeat #332940;
   background-size: 14px auto
 }
 .info_tracker:hover,
@@ -2892,7 +2889,7 @@ _:-ms-lang(x),
 }
 .info_tracker:hover {
   box-shadow: 0 0 0 1px #343;
-  background: url(images/button_tracker_hover.png) left 3px center no-repeat,linear-gradient(to bottom, #000 50%, #020 50%)!important;
+  background: url(images/button_tracker_hover.png) left 3px center no-repeat,linear-gradient(to bottom, #332940 50%, #1f1a24 50%)!important;
   background-size: 14px auto,100% 100%!important
 }
 .info_tracker:active,

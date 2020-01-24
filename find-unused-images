@@ -3,12 +3,16 @@
 rm -f .used.log .total.log
 rm -f used.log total.log
 
-for x in $(find "$HOME/Workspace/desktop-Workspace/mtn/i2p.i2p/" -name '*.png'); do
-    name=$(basename $x)
+for x in $(find "./installer/resources/themes/" -name '*.png'); do
+    name=$(basename $x | sed 's|.png||g')
+    nameext=$(basename $x)
     echo "Searching for uses of $name in i2p.i2p"
-    for y in $(find "$HOME/Workspace/desktop-Workspace/mtn/i2p.i2p/" -type f); do
-        grep -Hn "$name" "$y" && echo "$x" >> .used.log && break
+
+    for y in $(find "./" -type f); do
+        grep -Hn "$nameext" "$y" && echo "$x" >> .used.log && break
+        grep -Hn "$name" "apps/i2psnark/java/src/org/klomp/snark/web/I2PSnarkServlet.java" && echo "$x" >> .used.log && break
     done
+
     echo "$x" >> .total.log
     diff .used.log .total.log > unused_images.diff
 done
